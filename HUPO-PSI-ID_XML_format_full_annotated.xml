@@ -431,5 +431,74 @@
 				</structureFromFunction>
 			</structureStateFunction>
 		</structureStateFunctionList>
+		
+		<attributeList>
+			<!--  -->
+			<!-- Anythin can go in here -->
+			<!-- Labelling -->
+			<!-- Tags -->
+			<!-- Proportion transient structure -->
+			<!-- -->
+			
+			<attribute>
+				<regionRef></regionRef>
+				<experimentRef></experimentRef>
+				
+				<!-- -->
+				<!-- Secondary Structure in Regional-->
+				<!-- Chemical shifts in Residue-->
+				<!-- Helicity in Residue-->
+				<!-- Contact map in all by all-->
+				<!-- -->
+				
+				<attributeType></attributeType>
+				
+				<!--          -->
+				<!-- Regional -->
+				<!--          -->
+				<attributeDataType>region</attributeDataType>
+				<attributeDataList>
+					<attributeData  start="1" end="12">XXX</attributeData>
+				</attributeDataList>
+				
+				<!--          -->
+				<!-- Residue  -->
+				<!--          -->
+				<attributeDataType>amino acid</attributeDataType>
+				<attributeDataList>
+					<attributeData attributeDataType="amino_acid" residue="M" position="1">XXX</attributeData>
+					<attributeData attributeDataType="amino_acid" residue="A" position="2">XXX</attributeData>
+					<attributeData attributeDataType="amino_acid" residue="S" position="3">XXX</attributeData>
+					<attributeData attributeDataType="amino_acid" residue="D" position="4">XXX</attributeData>
+				</attributeDataList>
+				
+				<!--            -->
+				<!-- all by all -->
+				<!--            -->
+				<attributeDataType>amino acid all by all</attributeDataType>
+				<attributeDataList>
+					<attributeData attributeDataType="amino_acid" residue="M" position="1">
+						<attributeData attributeDataType="amino_acid" residue="A" position="2">XXX</attributeData>
+						<attributeData attributeDataType="amino_acid" residue="S" position="3">XXX</attributeData>
+						<attributeData attributeDataType="amino_acid" residue="D" position="4">XXX</attributeData>
+					</attributeData>
+					<attributeData attributeDataType="amino_acid" residue="A" position="2">
+						<attributeData attributeDataType="amino_acid" residue="M" position="1">XXX</attributeData>
+						<attributeData attributeDataType="amino_acid" residue="S" position="3">XXX</attributeData>
+						<attributeData attributeDataType="amino_acid" residue="D" position="4">XXX</attributeData>
+					</attributeData>
+					<attributeData attributeDataType="amino_acid" residue="S" position="3">
+						<attributeData attributeDataType="amino_acid" residue="M" position="1">XXX</attributeData>
+						<attributeData attributeDataType="amino_acid" residue="A" position="2">XXX</attributeData>
+						<attributeData attributeDataType="amino_acid" residue="D" position="4">XXX</attributeData>
+					</attributeData>
+					<attributeData attributeDataType="amino_acid" residue="D" position="4">
+						<attributeData attributeDataType="amino_acid" residue="M" position="1">XXX</attributeData>
+						<attributeData attributeDataType="amino_acid" residue="A" position="2">XXX</attributeData>
+						<attributeData attributeDataType="amino_acid" residue="S" position="3">XXX</attributeData>
+					</attributeData>
+				</attributeDataList>
+			</attribute>
+		</attributeList>
 	</entry>
 </entrySet>
