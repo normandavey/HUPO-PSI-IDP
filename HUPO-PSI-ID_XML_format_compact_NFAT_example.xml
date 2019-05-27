@@ -1,0 +1,158 @@
+<entrySet>
+	<entry>
+		<source>
+			<names>
+				<shortLabel>DisProt</shortLabel>
+			</names>
+			<xref>
+				<primaryRef refType="identity" db="" refTypeAc="" id=""/>
+			</xref>
+			<bibref>
+				<xref>
+					<primaryRef db="pubmed" id="27965415" refType="primary-reference"  dbAc="" refTypeAc=""/>
+				</xref>
+			</bibref>
+		</source>
+		<referenceList>
+			<reference id="1">
+				<xref>
+					<primaryRef db="pubmed" dbAc="" id="29432148" refType="primary-reference" refTypeAc=""/>
+					<secondaryRef db="disprot" dbAc="" id=""/>
+				</xref>
+				<bibref>
+					<xref>
+						<primaryRef db="pubmed" dbAc="" id="29432148" refType="primary-reference" refTypeAc=""/>
+					</xref>
+					<attributeList>
+						<attribute name="publication title" nameAc="">15N detection harnesses the slow relaxation property of nitrogen: Delivering enhanced resolution for intrinsically disordered protein.</attribute>
+						<attribute name="journal" nameAc="">Proc Natl Acad Sci U S A.</attribute>
+						<attribute name="publication year" nameAc="">2018</attribute>
+						<attribute name="author-list" nameAc="">Chhabra S, Fischer P, Takeuchi K, Dubey A, Ziarek JJ, Boeszoermenyi A, Mathieu D, Bermel W, Davey NE, Wagner G, Arthanari H.</attribute>
+						<attribute name="contact-email" nameAc=""></attribute>
+						<attribute name="full coverage" nameAc="">All structural information</attribute>
+					</attributeList>
+				</bibref>
+			</reference>
+		</referenceList>
+		<experimentList>
+			<experiment id="2">
+				<names>
+					<fullName>NMR study of the N-terminal IDR of NFAT1</fullName>
+				</names>
+				<referenceRef>1</referenceRef>
+				<experimentLocation>
+					<names>
+						<shortLabel>in vitro</shortLabel>
+						<fullName>In vitro</fullName>
+					</names>
+				</experimentLocation>
+				<experimentalMethod>
+					<names>
+						<shortLabel>15N detection NMR</shortLabel>
+					</names>
+					<xref>
+						<primaryRef db="" dbAc="" id="" refType="identity" refTypeAc=""/>
+					</xref>
+				</experimentalMethod>
+			</experiment>
+		</experimentList>
+		<moleculeList>
+			<molecule id="3">
+				<names>
+					<shortLabel>NFAT1_HUMAN</shortLabel>
+				</names>
+				<moleculeType>
+					<names>
+						<shortLabel>protein</shortLabel>
+					</names>
+					<xref>
+						<primaryRef db="" dbAc="" id="" refType="identity" refTypeAc=""/>
+					</xref>
+				</moleculeType>
+				<xref>
+					<primaryRef refType="identical object" db="uniprot knowledge base" refTypeAc="" dbAc="" id="Q13469"/>
+					<secondaryRef refType="identical object" db="" refTypeAc="" dbAc="" id=""/>
+				</xref>
+				<organism ncbiTaxId="9606">
+					<names>
+						<shortLabel>Human</shortLabel>
+					</names>
+				</organism>
+				<sequence>MNAPERQPQPDGGDAPGHEPGGSPQDELDFSILFDYEYLNPNEEEPNAHKVASPPSGPAYPDDVLDYGLKPYSPLASLSGEPPGRFGEPDRVGPQKFLSAAKPAGASGLSPRIEITPSHELIQAVGPLRMRDAGLLVEQPPLAGVAASPRFTLPVPGFEGYREPLCLSPASSGSSASFISDTFSPYTSPCVSPNNGGPDDLCPQFQNIPAHYSPRTSPIMSPRTSLAEDSCLGRHSPVPRPASRSSSPGAKRRHSCAEALVALPPGASPQRSRSPSPQPSSHVAPQDHGSPAGYPPVAGSAVIMDALNSLATDSPCGIPPKMWKTSPDPSPVSAAPSKAGLPRHIYPAVEFLGPCEQGERRNSAPESILLVPPTWPKPLVPAIPICSIPVTASLPPLEWPLSSQSGSYELRIEVQPKPHHRAHYETEGSRGAVKAPTGGHPVVQLHGYMENKPLGLQIFIGTADERILKPHAFYQVHRITGKTVTTTSYEKIVGNTKVLEIPLEPKNNMRATIDCAGILKLRNADIELRKGETDIGRKNTRVRLVFRVHIPESSGRIVSLQTASNPIECSQRSAHELPMVERQDTDSCLVYGGQQMILTGQNFTSESKVVFTEKTTDGQQIWEMEATVDKDKSQPNMLFVEIPEYRNKHIRTPVKVNFYVINGKRKRSQPQHFTYHPVPAIKTEPTDEYDPTLICSPTHGGLGSQPYYPQHPMVAESPSCLVATMAPCQQFRTGLSSPDARYQQQNPAAVLYQRSKSLSPSLLGYQQPALMAAPLSLADAHRSVLVHAGSQGQSSALLHPSPTNQQASPVIHYSPTNQQLRCGSHQEFQHIMYCENFAPGTTRPGPPPVSQGQRLSPGSYPTVIQQQNATSQRAAKNGPPVSDQKEVLPAGVTIKQEQNLDQTYLDDVNEIIRKEFSGPPARNQT</sequence>
+			</molecule>
+		</moleculeList>
+		<regionList>
+			<region id="4">
+				<moleculeRef>3</moleculeRef>
+				<names>
+					<shortLabel>NMR_NFAT_HUMAN_131_294</shortLabel>
+				</names>
+				<xref>
+					<primaryRef refType="identical object" db="disprot" refTypeAc="" id=""/>
+				</xref>
+				<sequence>
+					RDAGLLVEQPPLAGVAASPRFTLPVPGFEGYREPLCLSPASSGSSASFISDTFSPYTSPCVSPNNGGPDDLCPQFQNIPAHYSPRTSPIMSPRTSLAEDSCLGRHSPVPRPASRSSSPGAKRRHSCAEALVALPPGASPQRSRSPSPQPSSHVAPQDHGSPAGY
+				</sequence>
+				<experimentList>
+					<experimentRef>1</experimentRef>
+				</experimentList>
+				<featureList>
+					<feature id="5">
+						<names>
+							<shortLabel>NMR_NFAT_HUMAN_131_294_region</shortLabel>
+						</names>
+						<featureType>
+							<names>
+							<shortLabel>experimental region</shortLabel>
+							</names>
+							<xref>
+								<primaryRef refType="identity" refTypeAc="" db="psi-id" dbAc="" id=""/>
+							</xref>
+						</featureType>
+						<featureRangeList>
+							<featureRange>
+								<startStatus>
+									<names>
+										<shortLabel>certain sequence position</shortLabel>
+									</names>
+									<xref>
+										<primaryRef db="psi-id" dbAc="" id=""/>
+									</xref>
+								</startStatus>
+								<begin position="131"/>
+								<endStatus>
+									<names>
+										<shortLabel>certain sequence position</shortLabel>
+									</names>
+									<xref>
+										<primaryRef db="psi-id" dbAc="" id=""/>
+									</xref>
+								</endStatus>
+								<end position="294"/>
+							</featureRange>
+						</featureRangeList>
+					</feature>
+				</featureList>
+			</region>
+		</regionList>
+		<structureStateList>
+			<structureState id="5">
+				<regionRef>4</regionRef>
+				<xref>
+					<primaryRef refType="identical object" db="" refTypeAc="" id=""/>
+				</xref>
+				<structureStateType>
+					<names>
+					<shortLabel>Disordered</shortLabel>
+					</names>
+					<xref>
+						<primaryRef refType="identity" refTypeAc="" db="psi-id" dbAc="" id=""/>
+					</xref>
+				</structureStateType>
+				<experimentList>
+					<experimentRef>1</experimentRef>
+				</experimentList>
+			</structureState>
+		</structureStateList>
+	</entry>
+</entrySet>
