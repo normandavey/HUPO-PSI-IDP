@@ -1,8 +1,8 @@
 # HUPO-PSI-ID
-#### Formats and standards for the HUPO-PSI intrinsically disordered proteins community
+### Formats and standards for the HUPO-PSI intrinsically disordered proteins community
 
 
-##### The goals of the community are:
+#### The goals of the community are:
 
 * define the community data formats and associated controlled vocabularies to permit the dissemination and storage of relating to IDR structure and function.
 * define the Minimum Information About Disorder Experiments (MIADE) guidelines to standardise the description of IDP experiments.
@@ -10,3 +10,10 @@
 * define the rules and guidelines for the curation of IDP literature and annotation of IDP data
 
 The main projects supported by the group are the definition and development of the MIADE guidelines, PSI-ID XML format, PSI-ID TAB format and PSI-ID controlled vocabulary. 
+
+#### Documentation:
+The draft report "Preliminary draft of the standards and guidelines for the exchange of structural data relating to intrinsically disordered protein regions" is available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
+
+#### Funding:
+This project was initialised with funding from ELIXIR for the implementation study: “Integration and standardisation of intrinsically disordered protein data”.
+
