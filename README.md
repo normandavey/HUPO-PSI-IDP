@@ -11,6 +11,12 @@
 
 The main projects supported by the group are the definition and development of the MIADE guidelines, PSI-ID XML format, PSI-ID TAB format and PSI-ID controlled vocabulary. 
 
+
+#### HUPO-PSI-ID XML format 
+An annotated example of the HUPO-PSI-ID XML format is available [here](./HUPO-PSI-ID_XML_format_full_annotated.xml)
+
+A simple example of the HUPO-PSI-ID XML format holding a IDR annotation is available [here](./HUPO-PSI-ID_XML_format_compact_NFAT_example.xml)
+
 #### Documentation:
 The draft report "Preliminary draft of the standards and guidelines for the exchange of structural data relating to intrinsically disordered protein regions" is available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
 
