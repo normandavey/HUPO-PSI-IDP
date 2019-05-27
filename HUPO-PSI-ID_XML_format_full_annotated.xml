@@ -155,12 +155,12 @@
 				<!--   Species   -->
 				<organism ncbiTaxId="X">
 					<names>
-						<shortLabel>X</shortLabel>
+						<shortLabel></shortLabel>
 					</names>
 				</organism>
 			
 				<!--   Protein Sequence  -->
-				<sequence>X</sequence>
+				<sequence></sequence>
 			
 				<!--   Other information   -->
 				<!--   Experimental role?   -->
@@ -168,8 +168,8 @@
 					<!-- if it's synthetic non-biological peptide -->
 					<attribute name="no-uniprot-update"></attribute>
 				</attributeList>
-			</protein>
-		</proteinList>
+			</molecule>
+		</moleculeList>
 		<!--                     -->
 		<!--                     -->
 		<!-- Disordered regions  -->
@@ -428,7 +428,7 @@
 						<!-- Flexible linkers --> 
 						<primaryRef refType="identity" refTypeAc="" db="psi-id" dbAc="" id=""/>
 					</xref>
-				<structureFromFunction>
+				</structureFromFunction>
 			</structureStateFunction>
 		</structureStateFunctionList>
 	</entry>
