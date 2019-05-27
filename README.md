@@ -10,15 +10,15 @@
 
 The main projects supported by the group are the definition and development of the MIADE guidelines, PSI-ID XML format, PSI-ID TAB format and PSI-ID controlled vocabulary. 
 
-#### HUPO-PSI MIADE guidelines 
+#### HUPO-PSI MIADE guidelines:
 Full details are available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
 
-#### HUPO-PSI-ID XML format 
+#### HUPO-PSI-ID XML format:
 An annotated example of the HUPO-PSI-ID XML format is available [here](./HUPO-PSI-ID_XML_format_full_annotated.xml)
 
 A simple example of the HUPO-PSI-ID XML format holding a IDR annotation is available [here](./HUPO-PSI-ID_XML_format_compact_NFAT_example.xml)
 
-#### HUPO-PSI-ID TAB format 
+#### HUPO-PSI-ID TAB format:
 An annotated example of the HUPO-PSI-ID TAB format is available [here](./HUPO-PSI-ID_TAB_format.xlsx)
 
 #### Documentation:
