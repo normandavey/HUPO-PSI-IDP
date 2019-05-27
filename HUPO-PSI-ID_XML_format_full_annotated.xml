@@ -1,0 +1,435 @@
+<entrySet>
+	<entry>
+		<!--               -->
+		<!--               -->
+		<!--  reference   -->
+		<referenceList>
+			<!-- -->
+			<!-- Decribe the source of the data article or experimentalist. -->
+			<!-- -->
+			<reference id="1">
+				<!-- -->
+				<!-- If the source of the data is an article. -->
+				<!-- -->
+				<xref>
+					<primaryRef db="pubmed" dbAc="" id="" refType="primary-reference" refTypeAc=""/>
+					<secondaryRef db="disprot" dbAc="" id=""/>
+				</xref>
+				<bibref>
+					<xref>
+						<primaryRef db="pubmed" dbAc="" id="" refType="primary-reference" refTypeAc=""/>
+					</xref>
+					<attributeList>
+						<attribute name="publication title" nameAc=""></attribute>
+						<attribute name="journal" nameAc=""></attribute>
+						<attribute name="publication year" nameAc=""></attribute>
+						<attribute name="author-list" nameAc=""></attribute>
+						<attribute name="contact-email" nameAc=""></attribute>
+						<attribute name="full coverage" nameAc=""></attribute>
+					</attributeList>
+				</bibref>
+				
+				<!-- -->
+				<!-- If the source of the data is an experimentalist. -->
+				<!-- -->
+			
+				<attributeList>
+					<attribute name="author-list" nameAc=""></attribute>
+					<attribute name="contact-email" nameAc=""></attribute>
+					<attribute name="affiliation" nameAc=""></attribute>
+				</attributeList>
+			</reference>
+		</referenceList>
+		
+		<!--               -->
+		<!--               -->
+		<!--  Experiment   -->
+		<experimentList>
+			<!-- -->
+			<!-- Decribe all the experiments first. -->
+			<!-- -->
+			<experiment id="X">
+				<names>
+					<!-- -->
+					<!--How should the experiment be named?  -->
+					<!--[Experimental Method]-[Gene Name]-[Species Common]-[Region] -->
+					<!-- -->
+					<shortLabel>X</shortLabel>
+				</names>
+				<xref>
+					<!-- -->
+					<!-- BMRD        -->
+					<!-- Any others? -->
+					<!-- -->
+					<primaryRef refType="identical object" db="" refTypeAc="" id=""/>
+				</xref>
+				<bibref>
+					<xref>
+						<!-- -->
+						<!-- What will the external ID be when we don't have a paper -->     
+						<!-- -->
+						<primaryRef refType="primary-reference" db="pubmed" refTypeAc="" dbAc="" id=""/>
+					</xref>
+				</bibref>
+				<detectionMethod>
+					<names>
+						<shortLabel><!-- From list of methods --></shortLabel>
+					</names>
+					<xref>
+						<!-- From controlled vocabulary list of methods -->
+						<!-- We should make a list.-->
+						<primaryRef db="" dbAc="" id="" refType="identity" refTypeAc=""/>
+					</xref>
+					
+					<names>
+					<shortLabel>inferred by curator</shortLabel>
+					</names>
+					<xref>
+						<primaryRef refType="identical object" db="psi-id" refTypeAc="" dbAc="" id=""/>
+					</xref>
+				</detectionMethod>
+				
+				<experimentLocation>
+					<names>
+						<!-- -->
+						<!-- Decribe the location of the experiment. in silico, in vito, in vivo, in cell extract. Extra details can be added to the attributeList -->
+						<!-- -->
+						<shortLabel>in vitro</shortLabel>
+						<fullName>In vitro</fullName>
+					</names>
+				</experimentLocation>
+				
+				<attributeList>
+					<!-- -->
+					<!-- I think this can hold any information that we want. -->
+					<!-- When we have no paper I guess it can hold the experimentalist, lab, etc. -->
+					<!-- -->
+					<!--  What were the experimental details-->
+					<!--  We'd need to create guidelines for each experimental method about what goes in here-->
+					<!--  Or include it in the actual bioschema definition-->
+					<!--  -->
+					<!--  -->
+					<!-- Basically, any information that we want to store but the format doesn't have a tag for. -->
+					<!-- This where MIADE comes in. -->
+					<!-- --> 
+					
+					<!-- Depending on the Experiment this will be different. -->
+					
+					<!-- in vivo/in vitro/in cell extract -->
+					<!-- pH-->
+					<!-- Buffer -->
+					<!-- Temperature -->
+					<!-- Protein expression system -->
+					
+					<attribute name="X">X</attribute>
+				</attributeList>
+			</experiment>
+		</experimentList>
+		<!--           -->
+		<!--           -->
+		<!--  Protein  -->
+		<moleculeList>
+			<!--  -->
+			<!-- Define the protein-->
+			<!-- -->
+			<molecule id="X">
+				<names>
+					<!-- -->
+					<!-- Protein name-->
+					<!-- -->
+					<shortLabel></shortLabel>
+				</names>
+			
+				<xref>
+					<!-- -->
+					<!-- UniProt -->
+					<!-- EnsEmbl -->
+					<!-- Disprot -->
+					<!-- MobiDB -->
+					<!-- D2D2 -->
+					<!-- What will the external ID be for non-biological peptides? -->
+					<!-- -->
+					<primaryRef refType="identical object" db="uniprot knowledge base" refTypeAc="" dbAc="" id=""/>
+				</xref>
+			
+				<!--   Species   -->
+				<organism ncbiTaxId="X">
+					<names>
+						<shortLabel>X</shortLabel>
+					</names>
+				</organism>
+			
+				<!--   Protein Sequence  -->
+				<sequence>X</sequence>
+			
+				<!--   Other information   -->
+				<!--   Experimental role?   -->
+				<attributeList>
+					<!-- if it's synthetic non-biological peptide -->
+					<attribute name="no-uniprot-update"></attribute>
+				</attributeList>
+			</protein>
+		</proteinList>
+		<!--                     -->
+		<!--                     -->
+		<!-- Disordered regions  -->
+		<regionList>
+			<!-- -->
+			<!-- Define the intriniscally disordered regions-->
+			<!-- There will be one of these for each region and proteoform-->
+			<!-- Regions can overlap-->
+			<!-- -->
+			<region id="X">
+				<proteinRef>XX</proteinRef>
+			
+				<names>
+					<!--        -->
+					<!--How should the region be named?-->
+					<!--[protein]-[start]-[stop]-->
+					<shortLabel>X</shortLabel>
+				</names>
+				
+				<xref>
+					<!-- -->
+					<!-- Disprot -->
+					<!-- Any others? -->
+					<!-- -->
+					<primaryRef refType="identical object" db="" refTypeAc="" id=""/>
+				</xref>
+			
+				<experimentList>
+					<!-- reference to the experiment defined in the Experiment section -->
+					<experimentRef>XX</experimentRef>
+				</experimentList>
+			
+				<!--  -->
+				<!--	This where the experimental peptide is defined. -->
+				<!-- -->
+				<featureList>
+					<feature id="X">
+						<names>
+							<shortLabel>X</shortLabel>
+						</names>
+						<featureType>
+							<names>
+							<shortLabel>experimental region</shortLabel>
+							</names>
+							<xref>
+								<primaryRef refType="identity" refTypeAc="" db="psi-id" dbAc="" id=""/>
+							</xref>
+						</featureType>
+						<featureRangeList>
+							<featureRange>
+								<startStatus>
+									<names>
+										<shortLabel>certain sequence position</shortLabel>
+									</names>
+									<xref>
+										<primaryRef db="psi-id" dbAc="" id=""/>
+									</xref>
+								</startStatus>
+								<begin position=""/>
+								<endStatus>
+									<names>
+										<shortLabel>certain sequence position</shortLabel>
+									</names>
+									<xref>
+										<primaryRef db="psi-id" dbAc="" id=""/>
+									</xref>
+								</endStatus>
+								<end position=""/>
+							</featureRange>
+						</featureRangeList>
+					</feature>
+				
+					<!-- -->
+					<!--	This where any tags/mutations/modifications/transient SS/bound protein are defined. -->
+					<!--	etc. -->
+					<!-- -->
+					
+					<feature>
+						<featureType>
+							<names>
+								<shortLabel>mutation</shortLabel>
+								<fullName>mutation</fullName>
+							</names>
+							<xref>
+								<primaryRef db="psi-id" dbAc="" id="" refType="identity" refTypeAc=""/>
+							</xref>
+						</featureType>
+					
+						<featureRangeList>
+							<featureRange>
+								<startStatus>
+									<names>
+										<shortLabel>certain</shortLabel>
+										<fullName>certain sequence position</fullName>
+									</names>
+									<xref>
+										<primaryRef db="psi-id" dbAc="" id="" refType="identity" refTypeAc=""/>
+									</xref>
+								</startStatus>
+							
+								<!-- -->
+								<!-- I don't know whether the mutation position should be relative to the experimental region or protein -->
+								<!-- -->
+								<begin position="X"/>
+							
+								<endStatus>
+									<names>
+										<shortLabel>certain</shortLabel>
+										<fullName>certain sequence position</fullName>
+									</names>
+									<xref>
+										<primaryRef db="psi-id" dbAc="" id="" refType="identity" refTypeAc=""/>
+									</xref>
+								</endStatus>
+								<!-- -->
+								<!-- ? I don't know whether the mutation position should be relative to the experimental region or protein -->
+								<!-- -->
+								<end position="X"/>
+							</featureRange>
+						</featureRangeList>
+					
+						<attributeList>
+							<!--  -->
+							<!-- Anythin can go in here -->
+							<!-- Labelling -->
+							<!-- Tags -->
+							<!-- Proportion transient structure -->
+							<!-- -->
+						</attributeList>
+					</feature>
+				</featureList>
+				
+				<regionSequence>
+					<!-- The sequence of the polypeptide as analysed in the experiment. -->
+				</regionSequence>
+			</region>
+		</regionList>
+		<!--                                     -->
+		<!--                                     -->
+		<!-- Disordered regions structure states -->
+		<structureStateList>
+			<structureState id="">
+				<regionRef>XX</regionRef>
+				
+				<xref>
+					<!-- -->
+					<!-- Disprot -->
+					<!-- Experimental data from BMRB, PDB, etc-->
+					<!-- -->
+					<primaryRef refType="identical object" db="" refTypeAc="" id=""/>
+				</xref>
+			
+				<structureStateType>
+					<names>
+					<shortLabel>.....</shortLabel>
+					</names>
+					<xref>
+						<!-- Disorder # in version 1--> 
+						<!-- Order # in version 1-->
+						<!-- Pre-molten globule # in version 2-->
+						<!-- Molten globule # in version 2-->
+						<!-- We need a controlled vocabulary for this -->
+						<primaryRef refType="identity" refTypeAc="" db="psi-id" dbAc="" id=""/>
+					</xref>
+				</structureStateType>
+			
+				<experimentList>
+					<!-- reference to the experiment defined in the Experiment section -->
+					<experimentRef>XX</experimentRef>
+				</experimentList>
+			</structureState>
+		</structureStateList>
+		<!--                                                -->
+		<!--                                                -->
+		<!-- Disordered regions structure states transition -->
+		<structureStateTransitionList>
+			<structureStateTransition id="">
+				<structureStateTransitionType>
+					<names>
+						<shortLabel>.....</shortLabel>
+					</names>
+					<xref>
+						<!-- We need a controlled vocabulary for this -->
+						<!-- Order to Disorder --> 
+						<!-- Disorder to Order -->
+						<!-- Disorder to molten globule -->
+						<!-- Disorder to Disorder --> 
+						<primaryRef refType="identity" refTypeAc="" db="psi-id" dbAc="" id=""/>
+					</xref>
+				</structureStateTransitionType>
+			
+				<structureStateTransitionDetails>
+					<startState>
+						<!-- reference to the experiment defined in the Experiment section -->
+						<structureStateRef></structureStateRef>
+					</startState>
+					<endState>
+						<!-- reference to the experiment defined in the Experiment section -->
+						<structureStateRef></structureStateRef>
+					</endState>
+					<transitionMechanism>
+						<!-- We need a controlled vocabulary for this -->
+					
+						<!-- Post-translational modification -->
+						<!-- Moiety attachment and removal -->
+						<!-- Proteolytic cleavage -->
+						<!-- Peptide isomerization -->
+						<!-- pH changes -->
+						<!-- Oxidative stress -->
+						<!-- Crowding/Concentration -->
+						<!-- Interactor binding -->
+						<!-- Allosteric -->
+						<!-- Metal binding -->
+						<!-- Mechanical forces -->
+						<!-- Alternative transcription/splicing -->
+
+						<primaryRef refType="identity" refTypeAc="" db="psi-id" dbAc="" id=""/>
+					
+						
+						<transitionMechanismParticipants>
+							<!--  If binding -->
+							<proteinRef> From Protein List</proteinRef>
+							
+						</transitionMechanismParticipants>
+						
+						<attributeList>
+							<!--  -->
+							<!-- Not sure what goes here? -->
+							<!-- -->
+						</attributeList>
+						
+					</transitionMechanism>
+				</structureStateTransitionDetails>
+			</structureStateTransition>
+		</structureStateTransitionList>
+		<!--                             -->
+		<!--                             -->
+		<!-- We could add function here? -->
+		<structureStateFunctionList>
+			<!-- A region in a state can have a function associated with it-->
+			<!-- Region A State A has function X-->
+			<!-- Region A State B has function Y-->
+			<!-- Region B State A/B/C has function Y-->
+			
+			<structureStateFunction id="">
+				<structureStateRef></structureStateRef>
+				<structureFromFunction>
+					<names>
+						<shortLabel>.....</shortLabel>
+					</names>
+					<xref>
+						<!-- We need a controlled vocabulary for this -->
+						<!-- Spacer --> 
+						<!-- Fly casting -->
+						<!-- Entropic springs -->
+						<!-- Flexible linkers --> 
+						<primaryRef refType="identity" refTypeAc="" db="psi-id" dbAc="" id=""/>
+					</xref>
+				<structureFromFunction>
+			</structureStateFunction>
+		</structureStateFunctionList>
+	</entry>
+</entrySet>
