@@ -14,20 +14,13 @@ Current projects of the PSI-ID working group are:
 * development of the PSI-ID controlled vocabulary.
 
 ### Milestones:
-#### Milestone 1: 
-Submission of a manuscript to a journal in the field to announce the PSI-ID WG
-#### Goal 1: 
-Completion of the MIADE standard defining the minimal fundamental parameters to describe a structural disorder experiment, based on simple use cases
-#### Goal 2: 
-Completion of the 1.0 version of the PSI-ID TAB format to represent, in a simple but unambiguous manner, an entry adhering to the MIADE guidelines for the description of the structural state of a protein region
-#### Goal 3: 
-Completion of the 1.0 version of the PSI-ID XML format to allow the experimental setup and results of an analysis of the structure state of a protein region to be unequivocally represented
-#### Milestone 2: 
-Setting up the WG website/GitHub page to serve as a platform for dissemination of developed formats and standards
-#### Goal 4: 
-Work together with the PSI-MI WG to set up a protocol for integrating IDP interaction data into core data resources of molecular interactions
-#### Goal 5: 
-Defining the scope and priorities for version 1.0 of the CV for IDPs
+**Milestone 1** Submission of a manuscript to a journal in the field to announce the PSI-ID WG
+**Goal 1:** Completion of the MIADE standard defining the minimal fundamental parameters to describe a structural disorder experiment, based on simple use cases
+**Goal 2:** Completion of the 1.0 version of the PSI-ID TAB format to represent, in a simple but unambiguous manner, an entry adhering to the MIADE guidelines for the description of the structural state of a protein region
+**Goal 3:** Completion of the 1.0 version of the PSI-ID XML format to allow the experimental setup and results of an analysis of the structure state of a protein region to be unequivocally represented
+**Milestone 2:** Setting up the WG website/GitHub page to serve as a platform for dissemination of developed formats and standards
+**Goal 4:** Work together with the PSI-MI WG to set up a protocol for integrating IDP interaction data into core data resources of molecular interactions
+**Goal 5:** Defining the scope and priorities for version 1.0 of the CV for IDPs
 
 ### HUPO-PSI MIADE guidelines:
 Full details are available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
@@ -44,34 +37,22 @@ An annotated example of the HUPO-PSI-ID TAB format is available [here](./HUPO-PS
 The draft report "Preliminary draft of the standards and guidelines for the exchange of structural data relating to intrinsically disordered protein regions" is available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
 
 ### Administrative:
-#### Group Name:
-HUPO PSI Intrinsic Disorder Working Group (PSI-ID WG)
+**Group Name:** HUPO PSI Intrinsic Disorder Working Group (PSI-ID WG)
 
-#### Chair (with affiliation and current email address):
-Norman Davey - The Institute of Cancer Research, London, UK 
+**Chair (with affiliation and current email address):** Norman Davey - The Institute of Cancer Research, London, UK 
 
-#### Co-Chairs (1 or 2) (with affiliation and current email address):
-Silvio C. E. Tosatto - University of Padua, Padua, Italy 
-Zsuzsanna Dosztányi - Eötvös Loránd University, Budapest, Hungary
+**Co-Chairs (1 or 2) (with affiliation and current email address):** Silvio C. E. Tosatto - University of Padua, Padua, Italy; Zsuzsanna Dosztányi - Eötvös Loránd University, Budapest, Hungary
 
-#### Secretary:
-Bálint Mészáros - Eötvös Loránd University, Budapest, Hungary
+**Secretary:**Bálint Mészáros - Eötvös Loránd University, Budapest, Hungary
 
 #### Other officers (optional) (with affiliation and current email address):
-#### Editor(s): 
-Nicolás Palopoli - Universidad Nacional de Quilmes, Buenos Aires, Argentina 
-Rita Pancsa - Research Centre for Natural Sciences, HAS, Budapest, Hungary
-Kim van Roey(?)
+**Editor(s):** Nicolás Palopoli - Universidad Nacional de Quilmes, Buenos Aires, Argentina; Rita Pancsa - Research Centre for Natural Sciences, HAS, Budapest, Hungary; Kim van Roey(?)
 
-#### Minimal Reporting Requirements Coordinator(s): 
-Norman Davey - The Institute of Cancer Research, London, UK 
+**Minimal Reporting Requirements Coordinator(s):** Norman Davey - The Institute of Cancer Research, London, UK 
 
-#### Ontology Coordinator(s): 
-Toby Gibson - European Molecular Biology Laboratory, Heidelberg, Germany
-Peter Tompa - Vrije Universiteit Brussel, Brussels, Belgium
+**Ontology Coordinator(s):** Toby Gibson - European Molecular Biology Laboratory, Heidelberg, Germany; Peter Tompa - Vrije Universiteit Brussel, Brussels, Belgium
 
-#### Web site Maintainer(s): 
-Damiano Piovesan - University of Padua, Padua, Italy (damiano.piovesan@unipd.it)
+**Web site Maintainer(s):** Damiano Piovesan - University of Padua, Padua, Italy (damiano.piovesan@unipd.it)
 
 ### Funding:
 This project was initialised with funding from ELIXIR for the implementation study: “Integration and standardisation of intrinsically disordered protein data”.
