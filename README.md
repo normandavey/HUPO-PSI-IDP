@@ -23,6 +23,7 @@ Current projects of the PSI-ID working group are:
 **Goal 3:** Completion of the 1.0 version of the PSI-ID XML format to allow the experimental setup and results of an analysis of the structure state of a protein region to be unequivocally represented
 
 **Milestone 2:** Setting up the WG website/GitHub page to serve as a platform for dissemination of developed formats and standards
+
 **Goal 4:** Work together with the PSI-MI WG to set up a protocol for integrating IDP interaction data into core data resources of molecular interactions
 
 **Goal 5:** Defining the scope and priorities for version 1.0 of the CV for IDPs
