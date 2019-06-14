@@ -1,29 +1,78 @@
 # HUPO-PSI-ID
-### Formats and standards for the HUPO-PSI intrinsically disordered proteins community
+## Formats and standards for the HUPO-PSI intrinsically disordered proteins community
 
-#### The goals of the community are:
+### The goals of the community are:
+The PSI-ID working group is composed of academic, government, and industry researchers, software developers and database curators and managers. The main goals of the PSI-ID working group are to:
+* define the community PSI-ID XML exchange format and associated controlled vocabularies to permit the dissemination and storage of data relating to IDR structure and function.
+* define the Minimum Information About Disorder Experiments (MIADE) guidelines to standardise the description of intrinsically disordered protein (IDP) experiments.
+* support the integration of the developed standards, exchange formats and controlled vocabularies into IDP tools and resources.
+define the rules and guidelines for the curation of IDP literature and the annotation of IDP data.
 
-* define the community data formats and associated controlled vocabularies to permit the dissemination and storage of relating to IDR structure and function.
-* define the Minimum Information About Disorder Experiments (MIADE) guidelines to standardise the description of IDP experiments.
-* support the integration of the developed standards into IDP tools and resources
-* define the rules and guidelines for the curation of IDP literature and annotation of IDP data
+Current projects of the PSI-ID working group are:
+* definition and development of the MIADE guidelines.
+* definition and development of the PSI-ID XML format and the PSI-ID TAB format, working together with the PSI-MI workgroup.
+* development of the PSI-ID controlled vocabulary.
 
-The main projects supported by the group are the definition and development of the MIADE guidelines, PSI-ID XML format, PSI-ID TAB format and PSI-ID controlled vocabulary. 
+### Milestones:
+#### Milestone 1: 
+Submission of a manuscript to a journal in the field to announce the PSI-ID WG
+#### Goal 1: 
+Completion of the MIADE standard defining the minimal fundamental parameters to describe a structural disorder experiment, based on simple use cases
+#### Goal 2: 
+Completion of the 1.0 version of the PSI-ID TAB format to represent, in a simple but unambiguous manner, an entry adhering to the MIADE guidelines for the description of the structural state of a protein region
+#### Goal 3: 
+Completion of the 1.0 version of the PSI-ID XML format to allow the experimental setup and results of an analysis of the structure state of a protein region to be unequivocally represented
+#### Milestone 2: 
+Setting up the WG website/GitHub page to serve as a platform for dissemination of developed formats and standards
+#### Goal 4: 
+Work together with the PSI-MI WG to set up a protocol for integrating IDP interaction data into core data resources of molecular interactions
+#### Goal 5: 
+Defining the scope and priorities for version 1.0 of the CV for IDPs
 
-#### HUPO-PSI MIADE guidelines:
+### HUPO-PSI MIADE guidelines:
 Full details are available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
 
-#### HUPO-PSI-ID XML format:
+### HUPO-PSI-ID XML format:
 An annotated example of the HUPO-PSI-ID XML format is available [here](./HUPO-PSI-ID_XML_format_full_annotated.xml)
 
 A simple example of the HUPO-PSI-ID XML format holding a IDR annotation is available [here](./HUPO-PSI-ID_XML_format_compact_NFAT_example.xml)
 
-#### HUPO-PSI-ID TAB format:
+### HUPO-PSI-ID TAB format:
 An annotated example of the HUPO-PSI-ID TAB format is available [here](./HUPO-PSI-ID_TAB_format.xlsx)
 
-#### Documentation:
+### Documentation:
 The draft report "Preliminary draft of the standards and guidelines for the exchange of structural data relating to intrinsically disordered protein regions" is available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
 
-#### Funding:
+### Administrative:
+#### Group Name:
+HUPO PSI Intrinsic Disorder Working Group (PSI-ID WG)
+
+#### Chair (with affiliation and current email address):
+Norman Davey - The Institute of Cancer Research, London, UK 
+
+#### Co-Chairs (1 or 2) (with affiliation and current email address):
+Silvio C. E. Tosatto - University of Padua, Padua, Italy 
+Zsuzsanna Dosztányi - Eötvös Loránd University, Budapest, Hungary
+
+#### Secretary:
+Bálint Mészáros - Eötvös Loránd University, Budapest, Hungary
+
+#### Other officers (optional) (with affiliation and current email address):
+#### Editor(s): 
+Nicolás Palopoli - Universidad Nacional de Quilmes, Buenos Aires, Argentina 
+Rita Pancsa - Research Centre for Natural Sciences, HAS, Budapest, Hungary
+Kim van Roey(?)
+
+#### Minimal Reporting Requirements Coordinator(s): 
+Norman Davey - The Institute of Cancer Research, London, UK 
+
+#### Ontology Coordinator(s): 
+Toby Gibson - European Molecular Biology Laboratory, Heidelberg, Germany
+Peter Tompa - Vrije Universiteit Brussel, Brussels, Belgium
+
+#### Web site Maintainer(s): 
+Damiano Piovesan - University of Padua, Padua, Italy (damiano.piovesan@unipd.it)
+
+### Funding:
 This project was initialised with funding from ELIXIR for the implementation study: “Integration and standardisation of intrinsically disordered protein data”.
 
