@@ -15,11 +15,16 @@ Current projects of the PSI-ID working group are:
 
 ### Milestones:
 **Milestone 1** Submission of a manuscript to a journal in the field to announce the PSI-ID WG
+
 **Goal 1:** Completion of the MIADE standard defining the minimal fundamental parameters to describe a structural disorder experiment, based on simple use cases
+
 **Goal 2:** Completion of the 1.0 version of the PSI-ID TAB format to represent, in a simple but unambiguous manner, an entry adhering to the MIADE guidelines for the description of the structural state of a protein region
+
 **Goal 3:** Completion of the 1.0 version of the PSI-ID XML format to allow the experimental setup and results of an analysis of the structure state of a protein region to be unequivocally represented
+
 **Milestone 2:** Setting up the WG website/GitHub page to serve as a platform for dissemination of developed formats and standards
 **Goal 4:** Work together with the PSI-MI WG to set up a protocol for integrating IDP interaction data into core data resources of molecular interactions
+
 **Goal 5:** Defining the scope and priorities for version 1.0 of the CV for IDPs
 
 ### HUPO-PSI MIADE guidelines:
@@ -43,7 +48,7 @@ The draft report "Preliminary draft of the standards and guidelines for the exch
 
 **Co-Chairs (1 or 2) (with affiliation and current email address):** Silvio C. E. Tosatto - University of Padua, Padua, Italy; Zsuzsanna Dosztányi - Eötvös Loránd University, Budapest, Hungary
 
-**Secretary:**Bálint Mészáros - Eötvös Loránd University, Budapest, Hungary
+**Secretary:** Bálint Mészáros - Eötvös Loránd University, Budapest, Hungary
 
 #### Other officers (optional) (with affiliation and current email address):
 **Editor(s):** Nicolás Palopoli - Universidad Nacional de Quilmes, Buenos Aires, Argentina; Rita Pancsa - Research Centre for Natural Sciences, HAS, Budapest, Hungary; Kim van Roey(?)
