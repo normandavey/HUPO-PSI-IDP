@@ -69,6 +69,7 @@ Define and apply rules for the structural classification of the raw data stored 
 **Task 3:** Apply rules/algorithms to determine structural properties of the region analysed by the structural disorder experiment
 
 <ins>**Milestone 3**</ins>
+
 Create RESTful APIs for each resource to distribute structural classification data using a standardised dissemination formats based on the Minimum Information About Disorder Experiments (MIADE) standard. 
 
 **Task 1:** Each resource will implement a RESTful API for the dissemination of structural data
@@ -78,6 +79,7 @@ Create RESTful APIs for each resource to distribute structural classification da
  * mapped to common identifiers (UniProt,PubMed) and multiple entry points (protein, article, local identifier)
 
 <ins>**Milestone 4**</ins>
+
 Develop a single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.
 * Aggregate data from:
   * PDB, DisProt, SASBDB, PCDDB and the BMRB 
@@ -87,10 +89,12 @@ Develop a single RESTful API portal aggregating and distributing the structural 
 * Simple web frontend
 
 <ins>**Milestone 5**</ins>
+
 Improve the visibility of the complementary data in each resource.
 **Task 1:** Add cross-links to other sources of data on the same region in other resources.
 
 <ins>**Milestone 6**</ins>
+
 Perform a meta analysis by cross-referencing data from each resource and PDB. 
 
 **Task 1:** Calculate a range of summary statistics including:
