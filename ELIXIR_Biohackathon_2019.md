@@ -19,7 +19,8 @@ A key responsibility of the IDP community is the development of a framework to i
 * Develop a single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.
 
 ### Milestones:
-**Milestone 1** Definition of the exchange format based on MIADE defining the minimal fundamental parameters to describe a structural disorder experiment
+#### Milestone 1
+Definition of the exchange format based on MIADE defining the minimal fundamental parameters to describe a structural disorder experiment
 
 **Task 1:** Formal definition of a JSON/TDT/XML exchange format for the dissemination of structural data using [MIADE](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing) as a guide. MIADE document should be updated to reflect development of the exchange format.
 * Data should include:
@@ -34,13 +35,15 @@ A key responsibility of the IDP community is the development of a framework to i
   * **Reference Identifier (required):**  A link to the source of the experimental data underlying the entry. Ideally, this should describe a peer-reviewed publication (e.g. PubMed:12345678). Cross-references to experimental data in experimental method specific data repositories such as  SASBDB, PCDDB and BMRB can also be given. If none of these identifiers are available the details of the data producers should be given.
   * **Source Database Identifier (optional):**  If the experiment is annotated in an IDP database, the entry should be referenced (e.g. DisProt:DP12345).
 
-**Milestone 2** Define and apply rules for the structural classification of the raw data stored in each experimental method specific data repository.
+#### Milestone 2
+Define and apply rules for the structural classification of the raw data stored in each experimental method specific data repository.
 
 **Task 1:** Define the structural properties (ordered/disordered/etc) determinable by each experimental method
 
 **Task 2:** Apply rules/algorithms to determine structural properties of the region analysed by the structural disorder experiment
 
-**Milestone 3** Create RESTful APIs for each resource to distribute structural classification data using a standardised dissemination formats based on the Minimum Information About Disorder Experiments (MIADE) standard. 
+#### Milestone 3
+Create RESTful APIs for each resource to distribute structural classification data using a standardised dissemination formats based on the Minimum Information About Disorder Experiments (MIADE) standard. 
 
 **Task 1:** Implement a RESTful API for the dissemination of structural data
 * Implement the following:
@@ -48,15 +51,18 @@ A key responsibility of the IDP community is the development of a framework to i
   * index of available data
   * mapped to common identifier (UniProt)
 
-**Milestone 4** Add cross-links between the resources to improve the visibility of the complementary data in each resource.
+#### Milestone 4
+Add cross-links between the resources to improve the visibility of the complementary data in each resource.
 
 **Task 1:** 
 
-**Milestone 5** Develop a single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.
+#### Milestone 5
+Develop a single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.
 
 **Task 1:** 
 
-**Milestone 6** Perform a meta analysis of the data to undertand the overlap of the datasets from each resource.
+#### Milestone 6
+Perform a meta analysis of the data to undertand the overlap of the datasets from each resource.
 
 **Task 1:** 
 
