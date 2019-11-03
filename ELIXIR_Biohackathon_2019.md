@@ -34,7 +34,8 @@ Type of participant needed to help with the project:
 
 ## Milestones:
 
-#### - Milestone 1
+<ins>**Milestone 1**</ins>
+ 
 Definition of the exchange format based on MIADE defining the minimal fundamental parameters to describe a structural disorder experiment
 
 **Task 1:** Formal definition of a JSON/TDT/XML exchange format for the dissemination of structural data using [MIADE](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing) as a guide. MIADE document should be updated to reflect development of the exchange format.
@@ -51,7 +52,8 @@ Definition of the exchange format based on MIADE defining the minimal fundamenta
   * **Source Database Identifier (optional):**  If the experiment is annotated in an IDP database, the entry should be referenced (e.g. DisProt:DP12345).
   * **Attributes (optional):** Descriptive attributes that can be determined for the experimental data produced by the methods (e.g. Radius of gyration, mean and std dev of the chemical shifts.
 
-#### - Milestone 2
+<ins>**Milestone 2**</ins>
+ 
 Define and apply rules for the structural classification of the raw data stored in each experimental method specific data repository.
 
 **Task 1:** Define the structural properties (ordered/disordered/etc) determinable by each experimental method
@@ -66,7 +68,7 @@ Define and apply rules for the structural classification of the raw data stored 
   
 **Task 3:** Apply rules/algorithms to determine structural properties of the region analysed by the structural disorder experiment
 
-#### - Milestone 3
+<ins>**Milestone 3**</ins>
 Create RESTful APIs for each resource to distribute structural classification data using a standardised dissemination formats based on the Minimum Information About Disorder Experiments (MIADE) standard. 
 
 **Task 1:** Each resource will implement a RESTful API for the dissemination of structural data
@@ -75,7 +77,7 @@ Create RESTful APIs for each resource to distribute structural classification da
   * index of available data
  * mapped to common identifiers (UniProt,PubMed) and multiple entry points (protein, article, local identifier)
 
-#### - Milestone 4
+<ins>**Milestone 4**</ins>
 Develop a single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.
 * Aggregate data from:
   * PDB, DisProt, SASBDB, PCDDB and the BMRB 
@@ -84,11 +86,11 @@ Develop a single RESTful API portal aggregating and distributing the structural 
 * Combined index
 * Simple web frontend
 
-#### - Milestone 5
+<ins>**Milestone 5**</ins>
 Improve the visibility of the complementary data in each resource.
 **Task 1:** Add cross-links to other sources of data on the same region in other resources.
 
-#### - Milestone 6
+<ins>**Milestone 6**</ins>
 Perform a meta analysis by cross-referencing data from each resource and PDB. 
 
 **Task 1:** Calculate a range of summary statistics including:
