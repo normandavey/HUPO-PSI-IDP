@@ -112,7 +112,7 @@ Perform a meta analysis by cross-referencing data from each resource and PDB.
 | Ivan Mičetić | University of Padua, Italy|  [Database of Intrisically Disordered Proteins (DisProt)](https://www.disprot.org/) |
 | Sergio Gomes Ramalli | Birkbeck, UK | [Protein Circular Dichroism Data Bank (PCDDB)](http://pcddb.cryst.bbk.ac.uk) |
 | Al Kikhney | EMBL Hamburg, Germany | [Small Angle Scattering Biological Data Bank (SASBDB)](https://www.sasbdb.org*) |
-| Cy Jefferies | EMBL Hamburg, Germany | [Small Angle Scattering Biological Data Bank (SASBDB)](https://www.sasbdb.org*) |
+| Cy Jeffries | EMBL Hamburg, Germany | [Small Angle Scattering Biological Data Bank (SASBDB)](https://www.sasbdb.org*) |
 | Jonathan Wedell | University of Wisconsin, USA |  [Biological Magnetic Resonance Data Bank (BMRB)](http://www.bmrb.wisc.edu) |
 
 
