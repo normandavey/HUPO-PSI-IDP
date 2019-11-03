@@ -32,7 +32,7 @@ Type of participant needed to help with the project:
 * FAIR experts - researchers with an understanding of FAIR approaches to data storage and dissemination.
 * Programmers - coders with an interest in RESTful APIs, storage/dissemination standards and data FAIRification.
 
-### Milestones:
+## Milestones:
 
 #### - Milestone 1
 Definition of the exchange format based on MIADE defining the minimal fundamental parameters to describe a structural disorder experiment
@@ -75,7 +75,7 @@ Create RESTful APIs for each resource to distribute structural classification da
   * index of available data
  * mapped to common identifiers (UniProt,PubMed) and multiple entry points (protein, article, local identifier)
 
-#### Milestone 4
+#### - Milestone 4
 Develop a single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.
 * Aggregate data from:
   * PDB, DisProt, SASBDB, PCDDB and the BMRB 
@@ -88,7 +88,7 @@ Develop a single RESTful API portal aggregating and distributing the structural 
 Improve the visibility of the complementary data in each resource.
 **Task 1:** Add cross-links to other sources of data on the same region in other resources.
 
-#### Milestone 6
+#### - Milestone 6
 Perform a meta analysis by cross-referencing data from each resource and PDB. 
 
 **Task 1:** Calculate a range of summary statistics including:
@@ -101,22 +101,13 @@ Perform a meta analysis by cross-referencing data from each resource and PDB.
 | Contributor        | Affiliation   | Resource |
 | ------------- |:-------------:|:-------------:|
 | Norman Davey | Institute for Cancer Research, London, UK |
-| Damiano Piovesan | University of Padua, Italy |  Database of Intrisically Disordered Proteins (DisProt) |
-| Ivan Mičetić | University of Padua, Italy|  Database of Intrisically Disordered Proteins (DisProt) |
-| Sergio Gomes Ramalli | Birkbeck, UK | Protein Circular Dichroism Data Bank (PCDDB) |
-| Al Kikhney | EMBL Hamburg, Germany | Small Angle Scattering Biological Data Bank (SASBDB) |
-| Cy Jefferies | EMBL Hamburg, Germany | Small Angle Scattering Biological Data Bank (SASBDB) |
-| Jonathan Wedell | University of Wisconsin, USA |  Biological Magnetic Resonance Data Bank (BMRB) |
+| Damiano Piovesan | University of Padua, Italy |  [Database of Intrisically Disordered Proteins (DisProt)](https://www.disprot.org/) |
+| Ivan Mičetić | University of Padua, Italy|  [Database of Intrisically Disordered Proteins (DisProt)](https://www.disprot.org/) |
+| Sergio Gomes Ramalli | Birkbeck, UK | [Protein Circular Dichroism Data Bank (PCDDB)](http://pcddb.cryst.bbk.ac.uk) |
+| Al Kikhney | EMBL Hamburg, Germany | [Small Angle Scattering Biological Data Bank (SASBDB)](https://www.sasbdb.org*) |
+| Cy Jefferies | EMBL Hamburg, Germany | [Small Angle Scattering Biological Data Bank (SASBDB)](https://www.sasbdb.org*) |
+| Jonathan Wedell | University of Wisconsin, USA |  [Biological Magnetic Resonance Data Bank (BMRB)](http://www.bmrb.wisc.edu) |
 
-## Contributing resources
-
-| Resource        | Link  |
-| ------------- |:-------------:|
-| Database of Intrisically Disordered Proteins (DisProt) | **https://www.disprot.org/** |
-| Eukaryotic Linear Motif resource (ELM) | **https://elm.eu.org/** |
-| Protein Circular Dichroism Data Bank (PCDDB) | **http://pcddb.cryst.bbk.ac.uk** |
-| Small Angle Scattering Biological Data Bank (SASBDB) | **https://www.sasbdb.org** |
-| Biological Magnetic Resonance Data Bank (BMRB) | **www.bmrb.wisc.edu** |
 
 ## Reference Material: 
 #### HUPO-PSI MIADE guidelines:
