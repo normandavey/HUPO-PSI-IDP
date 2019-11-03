@@ -19,17 +19,43 @@ The project has the following specific aims:
 * Develop a single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.
 
 ### Milestones:
-**Milestone 1** Completion of the exchange format based on MIADE defining the minimal fundamental parameters to describe a structural disorder experiment
+**Milestone 1** Definition of the exchange format based on MIADE defining the minimal fundamental parameters to describe a structural disorder experiment
+>**Task 1:** Formal definition of a JSON/tdt/XML exchange format for the dissemination of structural data using [MIADE](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing) as a guide.
 
+**Milestone 2** Define and apply rules for the structural classification of the raw data stored in each experimental method specific data repository.
+>**Task 1:** Define the structural properties (ordered/disordered/etc) determinable by each experimental method
+>**Task 2:** Apply rules/algorithms to determine structural properties of the region analysed by the structural disorder experiment
+
+**Milestone 3** Create RESTful APIs for each resource to distribute structural classification data using a standardised dissemination formats based on the Minimum Information About Disorder Experiments (MIADE) standard. 
+>**Task 1:** Implement a RESTful API for the dissemination of structural data
+> * Implement the following:
+>   * data on a structural disorder experiment in JSON/tdt/XML exchange format 
+>   * index of available data
+>   * mapped to common identifier (UniProt)
+
+**Milestone 4** Add cross-links between the resources to improve the visibility of the complementary data in each resource.
+>**Task 1:** 
+
+**Milestone 5** Develop a single RESTful API portal aggregating and distributing the structural classification level IDP data to streamline the integration of IDP data into the ELIXIR core data resources.
 >**Task 1:** 
 
 ## Contributors
 
 * Norman Davey, Institute for Cancer Research, London, UK **norman.davey@icr.ac.uk**
+* Damiano Piovesan, University of Padua, Italy - Database of Intrisically Disordered Proteins (DisProt)
+* Ivan Mičetić, University of Padua, Italy - Database of Intrisically Disordered Proteins (DisProt)
 * Sergio Gomes Ramalli, Birkbeck, UK - Protein Circular Dichroism Data Bank (PCDDB)
 * Al Kikhney, EMBL Hamburg, Germany - Small Angle Scattering Biological Data Bank (SASBDB)
 * Cy Jefferies, EMBL Hamburg, Germany - Small Angle Scattering Biological Data Bank (SASBDB)
 * Jonathan Wedell, University of Wisconsin, USA - Biological Magnetic Resonance Data Bank (BMRB)
+
+## Contributing resources
+
+* Database of Intrisically Disordered Proteins (DisProt) - **https://www.disprot.org/**
+* Eukaryotic Linear Motif resource (ELM) - **https://elm.eu.org/**
+* Protein Circular Dichroism Data Bank (PCDDB) - **http://pcddb.cryst.bbk.ac.uk**
+* Small Angle Scattering Biological Data Bank (SASBDB) - **https://www.sasbdb.org**
+* Biological Magnetic Resonance Data Bank (BMRB) - **www.bmrb.wisc.edu**
 
 ## Expected outcomes from Biohackathon and beyond
 
