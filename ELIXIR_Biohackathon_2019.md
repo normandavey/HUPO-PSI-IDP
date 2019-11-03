@@ -91,6 +91,7 @@ Develop a single RESTful API portal aggregating and distributing the structural 
 <ins>**Milestone 5**</ins>
 
 Improve the visibility of the complementary data in each resource.
+
 **Task 1:** Add cross-links to other sources of data on the same region in other resources.
 
 <ins>**Milestone 6**</ins>
