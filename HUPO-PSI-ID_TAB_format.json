@@ -1,12 +1,12 @@
 {
   "$id": "https://github.com/normandavey/HUPO-PSI-ID/",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "HUPO-PSI ID protein region JSON format ",
+  "title": "HUPO-PSI ID protein region JSON format",
   "type": "object",
-  "description": "A protein entry for a structual experiment.",
+  "description": "A protein entry for a structural experiment.",
   "required": [ "proteinIdentifier", "regionStart", "regionEnd", "regionSequence","regionStructureState","experimentalMethod","source"],
-  "properties": {
   
+  "properties": {
    "proteinIdentifier": {
       "description": "Unique Identifier (required): The primary identifier of the experimentally tested protein in a database describing the protein. The protein identifier should preferentially be a UniProt Accession from the UniProt database (e.g. UniProt:P47074) as most major IDP resource use UniProt accessions for protein mapping. The identifier should include an isoform and a version number if possible (e.g. UniProt:P47074-2.4).",
        "type": "string"
@@ -15,13 +15,13 @@
     "regionStart": {
       "description": "Region Start (required): The start position of the experimental construct as mapped from the protein sequence defined in 'Unique Identifier'.",
        "type": "integer",
-      "minimum": 0
+      "minimum": 1
     },
     
     "regionEnd": {
       "description": "Region End (required): The end position of the experimental construct as mapped from the protein sequence defined in 'Unique Identifier'",
       "type": "integer",
-      "minimum": 0
+      "minimum": 1
     },
     
     "regionSequence": {
