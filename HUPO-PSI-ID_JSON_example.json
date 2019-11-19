@@ -1,0 +1,9 @@
+[{
+    "proteinIdentifier":"UNIPROT:Q9H3D4",
+    "regionStart":"47",
+    "regionEnd":"73",
+    "regionSequence":"NEFLSPEVFQHIWDFLEQPICSVQPID",
+    "regionStructureState":"Undefined",
+    "experimentalMethod":"ECO:0001813 heteronuclear single quantum coherence spectroscopy evidence",
+    "source":"BMRB:34231"
+}]
