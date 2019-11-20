@@ -1,0 +1,29 @@
+{
+	"proteinIdentifier":"P49913",
+	"proteinSequence":"MKTQRDGHSLGRWSLVLLLLGLVMPLAIIAQVLSYKEAVLRAIDGINQRSSDANLYRLLDLDPRPTMDGDPDTPKPVSFTVKETVCPRTTQQSPEDCDFKKDGLVKRCMGTVTLNQARGSFDISCDKDNKRFALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
+	"proteinRegions":[
+		{
+			"regionStart":"	134",
+			"regionEnd":"170",
+			"regionSequence":"",
+			"source":"disprot:DP00004r001",
+			"regionStructureState":"DO:00076",
+			"experimentType":"ECO:XXXXXXXX", 
+			"experimentReference":"9452503", 
+			"status":"",
+			"lastModified":""
+		},
+		{
+			"regionStart":"	134",
+			"regionEnd":"170",
+			"regionSequence":"",
+			"source":"disprot:DP00004r002",
+			"regionStructureState":"DO:00076",
+			"experimentType":"ECO:XXXXXXXX", 
+			"experimentReference":"9452503", 
+			"status":"",
+			"lastModified":""
+		}
+	]
+}
+			
