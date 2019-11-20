@@ -31,7 +31,7 @@
 			{
       
 				"source": {
-				  "description": "Source Database Entry Identifier (required): If the experiment is annotated in a database, the entry in that database should be referenced (e.g. DisProt:DP12345).",
+				  "description": "Source Database Entry Identifier (required): If the experiment is annotated in a database, the entry in that database should be referenced (e.g. DisProt:DP00086r026 - P53 experiment example).",
 				  "type": "string"
 				},
         
