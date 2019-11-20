@@ -3,24 +3,24 @@
 	"proteinSequence":"MKTQRDGHSLGRWSLVLLLLGLVMPLAIIAQVLSYKEAVLRAIDGINQRSSDANLYRLLDLDPRPTMDGDPDTPKPVSFTVKETVCPRTTQQSPEDCDFKKDGLVKRCMGTVTLNQARGSFDISCDKDNKRFALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
 	"proteinRegions":[
 		{
-			"regionStart":"	134",
-			"regionEnd":"170",
+			"regionStart":"221",
+			"regionEnd":"259",
 			"regionSequence":"",
-			"source":"disprot:DP00004r001",
-			"regionStructureState":"DO:00076",
-			"experimentType":"ECO:XXXXXXXX", 
-			"experimentReference":"pubmed:9452503", 
+			"source":"disprot:DP02341r002",
+			"regionStructureState":"",
+			"experimentType":"ECO:XXXXXXXX", // Circular dichroism spectroscopy far-UV
+			"experimentReference":"pubmed:27208228", 
 			"status":"",
 			"lastModified":""
 		},
 		{
-			"regionStart":"	134",
-			"regionEnd":"170",
+			"regionStart":"221",
+			"regionEnd":"259",
 			"regionSequence":"",
-			"source":"disprot:DP00004r002",
-			"regionStructureState":"DO:00076",
-			"experimentType":"ECO:XXXXXXXX", 
-			"experimentReference":"pubmed:9452503", 
+			"source":"disprot:DP02341r002",
+			"regionStructureState":"",
+			"experimentType":"ECO:XXXXXXXX", // Stability at thermal extremes
+			"experimentReference":"pubmed:27208228", 
 			"status":"",
 			"lastModified":""
 		}
