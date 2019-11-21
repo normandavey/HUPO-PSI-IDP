@@ -82,8 +82,8 @@
 					"from":[  //Find Ontology for this.
 						"Author supplied",
 						"PDB cross-referencing",
-						"Serquence mapping",
-						"Curator Supplied"
+						"Sequence mapping",
+						"Curator supplied"
 					]
 				},
 				
