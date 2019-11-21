@@ -18,6 +18,7 @@
 		},
 
 		"proteinRegions": {
+			"description": "Protein Region (optional): A list of protein region objects defining structural experiments for a protein region"
 			"type": "array",
 			"items": { "$ref": "#/definitions/regions" }
 		}
