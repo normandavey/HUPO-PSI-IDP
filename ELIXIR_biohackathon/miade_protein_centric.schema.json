@@ -78,7 +78,7 @@
 				
 				"regionDefinitionSource": {
 					"description": "Region Definition Source (optional): The source of the region definition.",
-					"type": "string"
+					"type": "string",
 					"from":[  //Find Ontology for this.
 						"Author supplied",
 						"PDB cross-referencing",
