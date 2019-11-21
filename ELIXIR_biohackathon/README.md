@@ -21,10 +21,15 @@ Multiple protein: return array of json dictionaries
 
 ***Available endpoints***: 
 
-BMRB: Underdevelopment [here]()
+BMRB: Under development [here]()
 
-DisProt: Underdevelopment [here]()
+DisProt: 
 
-PCDDB: Underdevelopment [here]()
+* DisProt protein entry [here](https://disprot.org/api/P04637?format=psi-id-json)
 
-SASBDB: Underdevelopment [here]()
+* DisProt protein all entries [here](https://disprot.org/api/search?format=psi-id-json)
+
+
+PCDDB: Under development [here]()
+
+SASBDB: Under development [here]()
