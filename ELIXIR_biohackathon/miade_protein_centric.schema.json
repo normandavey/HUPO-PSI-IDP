@@ -12,7 +12,7 @@
 			"type": "string"
 		},
 
-		"proteinSequence": {
+		"proteinSequenceReference": {
 			"description": "Protein Sequence (optional): The full sequence of the reference protein sequence defined in 'Unique Identifier'.",
 			"type": "string"
 		},
@@ -48,7 +48,7 @@
 				  "minimum": 1
 				},
 
-				"regionSequence": {
+				"regionSequenceExperimental": {
 					"description": "Region Sequence (optional): The full sequence of the experimentally tested construct including any tags, alterations or modifications.",
 					"type": "string"
 				},
