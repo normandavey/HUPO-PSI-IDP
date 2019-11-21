@@ -7,7 +7,7 @@
 ***Example***: An example of the draft schema for the protein-centric structural experiment JSON exchange format is [here](https://github.com/normandavey/HUPO-PSI-ID/blob/master/ELIXIR_biohackathon/miade_protein_centric.schema.example.json).
 
 ***Usage***:
-REST api returning 
+Data keys for which no data is available should not be added to the JSON object
 
 ***Options***:
 
