@@ -1,11 +1,11 @@
 {
 	"proteinIdentifier":"uniprot:P49913",
-	"proteinSequence":"MKTQRDGHSLGRWSLVLLLLGLVMPLAIIAQVLSYKEAVLRAIDGINQRSSDANLYRLLDLDPRPTMDGDPDTPKPVSFTVKETVCPRTTQQSPEDCDFKKDGLVKRCMGTVTLNQARGSFDISCDKDNKRFALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
+	"proteinSequenceReference":"MKTQRDGHSLGRWSLVLLLLGLVMPLAIIAQVLSYKEAVLRAIDGINQRSSDANLYRLLDLDPRPTMDGDPDTPKPVSFTVKETVCPRTTQQSPEDCDFKKDGLVKRCMGTVTLNQARGSFDISCDKDNKRFALLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
 	"proteinRegions":[
 		{
 			"regionStart":"221",
 			"regionEnd":"259",
-			"regionSequence":"",
+			"regionSequenceExperimental":"",
 			"source":"disprot:DP02341r002",
 			"regionStructureState":"",
 			"experimentType":"ECO:XXXXXXXX", // Circular dichroism spectroscopy far-UV
@@ -16,7 +16,7 @@
 		{
 			"regionStart":"221",
 			"regionEnd":"259",
-			"regionSequence":"",
+			"regionSequenceExperimental":"",
 			"source":"disprot:DP02341r002",
 			"regionStructureState":"",
 			"experimentType":"ECO:XXXXXXXX", // Stability at thermal extremes
