@@ -21,7 +21,11 @@ Multiple protein: return array of json dictionaries
 
 ***Available endpoints***: 
 
-BMRB: Under development [here]()
+BMRB: 
+
+* BMRB protein entry: http://webapi.bmrb.wisc.edu/development/protein/uniprot/Q86T24?format=hupo-psi-id
+
+* BMRB protein all entries: http://webapi.bmrb.wisc.edu/development/protein/uniprot?format=hupo-psi-id
 
 DisProt: 
 
