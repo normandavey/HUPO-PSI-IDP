@@ -8,7 +8,7 @@
 
 	"properties": {
 		"proteinIdentifier": {
-			"description": "Unique Identifier (required): The primary identifier of the experimentally tested protein in a database describing the protein. The protein identifier should preferentially be a UniProt Accession from the UniProt database (e.g. UniProt:P47074) as most major IDP resource use UniProt accessions for protein mapping. The identifier should include an isoform and a version number if possible (e.g. UniProt:P47074-2.4).",
+			"description": "Unique Identifier (required): The primary identifier of the experimentally tested protein in a database describing the protein. The protein identifier should preferentially be a UniProt Accession from the UniProt database (e.g. uniprot:P47074) as most major IDP resource use UniProt accessions for protein mapping. The identifier should include an isoform and a version number if possible (e.g. uniprot:P47074-2.4).",
 			"type": "string"
 		},
 
@@ -31,7 +31,7 @@
 			{
       
 				"source": {
-				  "description": "Source Database Entry Identifier (required): If the experiment is annotated in a database, the entry in that database should be referenced (e.g. DisProt:DP00086r026 - P53 experiment example).",
+				  "description": "Source Database Entry Identifier (required): If the experiment is annotated in a database, the entry in that database should be referenced (e.g. disprot:DP00086r026 - P53 experiment example).",
 				  "type": "string"
 				},
         
@@ -56,8 +56,14 @@
 					"description": "Region Structure State (optional): The structure state of the region as defined by the experimental data or as inferred by the experimentalist. Currently, limited to the binary classification of 'Ordered', 'intrinsically disordered' or 'Undefined'.",
 					"type": "string"
 				},
-
+				
+				
 				"experimentReference": {
+					"description": "Unique Experiment Reference Identifier (required): An identifier for the experiment pointing to an article in PubMed (e.g. pubmed:12345678). Alternatively, may point to experiment information with DOI.",
+					"type": "string"
+				},
+
+				"experimentMethod": {
 					"description": "Experimental Method (optional):A term for an experimental method as described in the Evidence & Conclusion Ontology ECO ontology [ECO](https://www.ebi.ac.uk/ols/ontologies/eco).",
 					"type": "string",
 					"graph_restriction":  {
