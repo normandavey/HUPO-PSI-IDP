@@ -18,7 +18,7 @@
 		},
 
 		"proteinRegions": {
-			"description": "Protein Region (optional): A list of protein region objects defining structural experiments for a protein region",
+			"description": "Protein Region (required): A list of protein region objects defining structural experiments for a protein region",
 			"type": "array",
 			"items": { "$ref": "#/definitions/regions" }
 		}
@@ -75,7 +75,18 @@
 						"include_self": false
 						}
 				},
-
+				
+				"regionDefinitionSource": {
+					"description": "Region Definition Source (optional): The source of the region definition.",
+					"type": "string"
+					"from":[  //Find Ontology for this.
+						"Author supplied",
+						"PDB cross-referencing",
+						"Serquence mapping",
+						"Curator Supplied"
+					]
+				},
+				
 				"status": {
 					"description": "Source Database Entry Status (optional): The status of the entry as defined by Source Database Identifier.",
 					"type": "string"
@@ -83,7 +94,8 @@
 
 				"lastModified": {
 					"description": "Source Database Entry Last Modified (optional): The date the entry in the Source Database Identifier was last modified.",
-					"type": "string"
+					"type": "string",
+					"format": "date ISO 8601 format YYYY-MM-DD"
 				}
 			}
 		}
