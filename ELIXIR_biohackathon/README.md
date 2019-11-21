@@ -25,10 +25,9 @@ BMRB: Under development [here]()
 
 DisProt: 
 
-* DisProt protein entry [here](https://disprot.org/api/P04637?format=psi-id-json)
+* DisProt protein entry: https://disprot.org/api/P04637?format=psi-id-json
 
-* DisProt protein all entries [here](https://disprot.org/api/search?format=psi-id-json)
-
+* DisProt protein all entries: https://disprot.org/api/search?format=psi-id-json 
 
 PCDDB: Under development [here]()
 
