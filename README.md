@@ -6,7 +6,7 @@ The PSI-ID working group is composed of academic, government, and industry resea
 * define the community PSI-ID XML exchange format and associated controlled vocabularies to permit the dissemination and storage of data relating to IDR structure and function.
 * define the Minimum Information About Disorder Experiments (MIADE) guidelines to standardise the description of intrinsically disordered protein (IDP) experiments.
 * support the integration of the developed standards, exchange formats and controlled vocabularies into IDP tools and resources.
-define the rules and guidelines for the curation of IDP literature and the annotation of IDP data.
+* define the rules and guidelines for the curation of IDP literature and the annotation of IDP data.
 
 Current projects of the PSI-ID working group are:
 * definition and development of the MIADE guidelines.
