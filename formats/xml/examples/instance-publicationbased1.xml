@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entrySet xmlns="http://psi.hupo.org/id/idf100"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://psi.hupo.org/id/idf100 file:/Users/roey/Desktop/IDP/PSI-ID-XML_schema/PSI-ID.xsd" level="1" version="0" minorVersion="0">
+    <entry>
+        <source releaseDate="2016-09-05">
+            <names>
+                <shortLabel>disprot</shortLabel>
+            </names>
+            <xref>
+                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+            </xref>
+        </source>
+        <availabilityList>
+            <availability id="0">available</availability>
+        </availabilityList>
+        <experimentList>
+            <experimentDescription id="10">
+                <names>
+                    <shortLabel>belorusova-1</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="26937780" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                </bibref>
+                <hostOrganismList>
+                    <hostOrganism ncbiTaxId="-1">
+                        <names>
+                            <shortLabel>in vitro</shortLabel>
+                            <fullName>in vitro</fullName>
+                        </names>
+                    </hostOrganism>
+                </hostOrganismList>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>NMR</shortLabel>
+                        <fullName>nuclear magnetic resonance</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001105" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethod>
+                    <names>
+                        <shortLabel>predetermined molecule</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </moleculeIdentificationMethod>
+                <variableParameterList>
+                    <variableParameter>
+                        <description>temperature</description>
+                        <unit>
+                            <names>
+                                <shortLabel>K</shortLabel>
+                                <fullName>kelvin</fullName>
+                            </names>
+                        </unit>
+                        <variableValueList>
+                            <variableValue id="20">
+                                <value>279</value>
+                            </variableValue>
+                        </variableValueList>
+                    </variableParameter>
+                    <variableParameter>
+                        <description>pH</description>
+                        <variableValueList>
+                            <variableValue id="21">
+                                <value>7</value>
+                            </variableValue>
+                        </variableValueList>
+                    </variableParameter>
+                </variableParameterList>
+            </experimentDescription>
+            <experimentDescription id="11">
+                <names>
+                    <shortLabel>belorusova-2</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="26937780" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                </bibref>
+                <hostOrganismList>
+                    <hostOrganism ncbiTaxId="-1">
+                        <names>
+                            <shortLabel>in vitro</shortLabel>
+                            <fullName>in vitro</fullName>
+                        </names>
+                    </hostOrganism>
+                </hostOrganismList>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>SAXS</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00125" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethod>
+                    <names>
+                        <shortLabel>predetermined molecule</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </moleculeIdentificationMethod>
+                <variableParameterList>
+                    <variableParameter>
+                        <description>temperature</description>
+                        <unit>
+                            <names>
+                                <shortLabel>K</shortLabel>
+                                <fullName>kelvin</fullName>
+                            </names>
+                        </unit>
+                        <variableValueList>
+                            <variableValue id="23">
+                                <value>283</value>
+                            </variableValue>
+                        </variableValueList>
+                    </variableParameter>
+                </variableParameterList>
+            </experimentDescription>
+        </experimentList>
+        <moleculeList>
+            <molecule id="12">
+                <names>
+                    <shortLabel>RXRA_HUMAN</shortLabel>
+                    <fullName>Retinoic acid receptor RXR-alpha</fullName>
+                    <alias typeAc="ID:0000" type="gene name">RXRA</alias>
+                    <alias typeAc="ID:0000" type="gene name synonym">NR2B1</alias>
+                    <alias typeAc="ID:0000" type="display_short">RXRA</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="ID:0000" id="P19793" refType="identity" refTypeAc="ID:0000"/>
+                    <secondaryRef db="uniprotkb" dbAc="ID:0000" id="B3KY83" refType="secondary-ac" refTypeAc="ID:0000"/>
+                    <secondaryRef db="ensembl" dbAc="ID:0000" id="ENSG00000186350" refType="gene product" refTypeAc="ID:0000"/>
+                </xref>
+                <organism ncbiTaxId="9606">
+                    <names>
+                        <shortLabel>human</shortLabel>
+                        <fullName>Homo sapiens</fullName>
+                        <alias typeAc="ID:0000" type="synonym">Human</alias>
+                    </names>
+                </organism>
+                <sequence>MDTKHFLPLDFSTQVNSSLTSPTGRGSMAAPSLHPSLGPGIGSPGQLHSPISTLSSPINGMGPPFSVISSPMGPHSMSVPTTPTLGFSTGSPQLSSPMNPVSSSEDIKPPLGLNGVLKVPAHPSGNMASFTKHICAICGDRSSGKHYGVYSCEGCKGFFKRTVRKDLTYTCRDNKDCLIDKRQRNRCQYCRYQKCLAMGMKREAVQEERQRGKDRNENEVESTSSANEDMPVERILEAELAVEPKTETYVEANMGLNPSSPNDPVTNICQAADKQLFTLVEWAKRIPHFSELPLDDQVILLRAGWNELLIASFSHRSIAVKDGILLATGLHVHRNSAHSAGVGAIFDRVLTELVSKMRDMQMDKTELGCLRAIVLFNPDSKGLSNPAEVEALREKVYASLEAYCKHKYPEQPGRFAKLLLRLPALRSIGLKCLEHLFFFKLIGDTPIDTFLMEMLEAPHQMT</sequence>
+            </molecule>
+        </moleculeList>
+        <structureStateList>
+            <structureState id="13">
+                <names>
+                    <shortLabel>P19793-1</shortLabel>
+                </names>
+                <xref>
+                    <primaryRef db="disprot" dbAc="ID:0000" id="DP00062" refType="subset" refTypeAc="ID:0000"/>
+                </xref>
+                <availabilityRef>0</availabilityRef>
+                <experimentList>
+                    <experimentRef>10</experimentRef>
+                </experimentList>
+                <experimentalRegion id="30">
+                    <names>
+                        <shortLabel>HsRXRa NTD-DBD</shortLabel>
+                        <fullName>N-terminus and DNA-binding domain of human RXR alpha</fullName>
+                    </names>
+                    <experimentalRegionRangeList>
+                        <experimentalRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="220"/>
+                            <isLink>false</isLink>
+                        </experimentalRegionRange>
+                    </experimentalRegionRangeList>
+                    <sequence>MDTKHFLPLDFSTQVNSSLTSPTGRGSMAAPSLHPSLGPGIGSPGQLHSPISTLSSPINGMGPPFSVISSPMGPHSMSVPTTPTLGFSTGSPQLSSPMNPVSSSEDIKPPLGLNGVLKVPAHPSGNMASFTKHICAICGDRSSGKHYGVYSCEGCKGFFKRTVRKDLTYTCRDNKDCLIDKRQRNRCQYCRYQKCLAMGMKREAVQEERQRGKDRNENEV</sequence>
+                    <moleculeRef>12</moleculeRef>
+                    <experimentalPreparationList>
+                        <experimentalPreparation>
+                            <names>
+                                <shortLabel>purified</shortLabel>
+                                <fullName>purified</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </experimentalPreparation>
+                    </experimentalPreparationList>
+                    <hostOrganismList>
+                        <hostOrganism ncbiTaxId="469008">
+                            <names>
+                                <shortLabel>E. coli BL21(DE3)</shortLabel>
+                                <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                            </names>
+                        </hostOrganism>
+                    </hostOrganismList>
+                </experimentalRegion>
+                <structureStateRegionList>
+                    <structureStateRegion id="40">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00062r002" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                            <shortLabel>disordered</shortLabel>
+                            <fullName>intrinsically disordered</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="IDPO" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="130"/>
+                            <isLink>false</isLink>
+                        </structureStateRegionRange>
+                        <sequence>MDTKHFLPLDFSTQVNSSLTSPTGRGSMAAPSLHPSLGPGIGSPGQLHSPISTLSSPINGMGPPFSVISSPMGPHSMSVPTTPTLGFSTGSPQLSSPMNPVSSSEDIKPPLGLNGVLKVPAHPSGNMASF</sequence>
+                    </structureStateRegion>
+                </structureStateRegionList>
+                <experimentalVariableValueList>
+                    <experimentalVariableValues>
+                        <variableValueRef>20</variableValueRef>
+                    </experimentalVariableValues>
+                    <experimentalVariableValues>
+                        <variableValueRef>21</variableValueRef>
+                    </experimentalVariableValues>
+                </experimentalVariableValueList>
+            </structureState>
+            <structureState id="14">
+                <names>
+                    <shortLabel>P19793-2</shortLabel>
+                </names>
+                <xref>
+                    <primaryRef db="disprot" dbAc="ID:0000" id="DP00062" refType="subset" refTypeAc="ID:0000"/>
+                </xref>
+                <availabilityRef>0</availabilityRef>
+                <experimentList>
+                    <experimentRef>11</experimentRef>
+                </experimentList>
+                <experimentalRegion id="31">
+                    <names>
+                        <shortLabel>HsRXRa NTD-DBD</shortLabel>
+                        <fullName>
+                            N-terminus and DNA-binding domain of human RXR alpha
+                        </fullName>
+                    </names>
+                    <experimentalRegionRangeList>
+                        <experimentalRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="220"/>
+                            <isLink>false</isLink>
+                        </experimentalRegionRange>
+                    </experimentalRegionRangeList>
+                    <sequence>MDTKHFLPLDFSTQVNSSLTSPTGRGSMAAPSLHPSLGPGIGSPGQLHSPISTLSSPINGMGPPFSVISSPMGPHSMSVPTTPTLGFSTGSPQLSSPMNPVSSSEDIKPPLGLNGVLKVPAHPSGNMASF</sequence>
+                    <moleculeRef>12</moleculeRef>
+                    <experimentalPreparationList>
+                        <experimentalPreparation>
+                            <names>
+                                <shortLabel>purified</shortLabel>
+                                <fullName>purified</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </experimentalPreparation>
+                    </experimentalPreparationList>
+                    <hostOrganismList>
+                        <hostOrganism ncbiTaxId="7108">
+                            <names>
+                                <shortLabel>Sf9</shortLabel>
+                                <fullName>Spodoptera frugiperda Sf9 insect cells</fullName>
+                            </names>
+                            <cellType>
+                                <names>
+                                    <shortLabel>Sf9</shortLabel>
+                                    <fullName>Spodoptera frugiperda Sf9 insect cells</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="cabri" dbAc="ID:0000" id="ACC 125" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </cellType>
+                        </hostOrganism>
+                    </hostOrganismList>
+                </experimentalRegion>
+                <structureStateRegionList>
+                    <structureStateRegion id="41">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00062r001" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disordered</shortLabel>
+                                <fullName>intrinsically disordered</fullName>
+                            </names>
+                            <xref>
+                                <primaryRef db="IDPO" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="130"/>
+                            <isLink>false</isLink>
+                        </structureStateRegionRange>
+                        <sequence>MDTKHFLPLDFSTQVNSSLTSPTGRGSMAAPSLHPSLGPGIGSPGQLHSPISTLSSPINGMGPPFSVISSPMGPHSMSVPTTPTLGFSTGSPQLSSPMNPVSSSEDIKPPLGLNGVLKVPAHPSGNMASF</sequence>
+                    </structureStateRegion>
+                </structureStateRegionList>
+                <experimentalVariableValueList>
+                    <experimentalVariableValues>
+                        <variableValueRef>23</variableValueRef>
+                    </experimentalVariableValues>
+                </experimentalVariableValueList>
+            </structureState>
+        </structureStateList>
+    </entry>
+</entrySet>
