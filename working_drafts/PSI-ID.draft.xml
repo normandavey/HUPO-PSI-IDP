@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                     xmlns:idf="http://psi.hupo.org/id/idf100"
+                     targetNamespace="http://psi.hupo.org/id/idf100" elementFormDefault="qualified"
+                     attributeFormDefault="unqualified">
+    <!--root element-->
+    <xs:element name="entrySet" type="idf:entrySet">
+        <xs:annotation>
+            <xs:documentation>Root element of the Intrinsic Disorder Format</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    
+    <xs:complexType name="entrySet">
+        <xs:sequence>
+            <xs:element name="entry" maxOccurs="unbounded" type="idf:entry">
+                <xs:annotation>
+                    <xs:documentation>Describes one or more structural states of one or more regions as a 
+                    self-contained unit. Multiple entries from different files can be concatenated into a 
+                    single entrySet. Grouping within an entry will likely be based on publication or protein.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="level" type="xs:int" use="required" fixed="1">
+            <xs:annotation>
+                <xs:documentation>PSI ID level</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="version" type="xs:int" use="required" fixed="0">
+            <xs:annotation>
+                <xs:documentation>PSI ID version within given level</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="minorVersion" type="xs:int" use="optional" fixed="0"/>
+    </xs:complexType>
+    
+    
+    <!--entry-->
+    
+    <xs:complexType name="entry">
+        <xs:sequence>
+            <xs:element name="source" type="idf:source" minOccurs="0"/>
+            <xs:element name="availabilityList" type="idf:availabilityList" minOccurs="0"/>
+            <xs:element name="experimentList" type="idf:experimentDescriptionList" minOccurs="0"/>
+            <xs:element name="moleculeList" type="idf:moleculeList" minOccurs="0"/>
+            <xs:element name="structureStateList" type="idf:structureStateList"/>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!--CHILDREN OF ENTRY-->
+    
+    <!--source-->
+    <!-- in the PSI-MI schema this element is mainly used to annotate the interaction database originally 
+        holding the interaction data record, as different databases regularly exchange data, in which case 
+        they want to be able to indicate the original source database; this is less of an issue for IDP data, 
+        so the source element might be dropped from the PSI-ID schema -->
+    <xs:complexType name="source">
+        <xs:annotation>
+            <xs:documentation>Desciption of the source of the entry, usually a database that holds the entry, 
+            but also a submitting organisation, group, experimentalist, or consortium</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Name(s) of the data source.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="bibref" type="idf:bibref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Bibliographic reference for the data source, for example a paper which
+                    describes all structure states of the entry.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="xref" type="idf:xref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Unambiguous identification of the source by a CV term; for instance, 
+                    the primary reference with attributes db="psi-mi" dbAc="MI:0488" id="MI:1332" refType=
+                    "identity" refTypeAc="MI:0356" refers to source bhf-ucl, which is identical to term 
+                    MI:1332 in PSI-MI CV, which lists itself as term MI:0488. For this we need to define 
+                    similar PSI-ID CV terms.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Further description of the source.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="release" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="releaseDate" type="xs:date" use="optional"/>
+    </xs:complexType>
+    
+    <!--availability-->
+    <!-- possibly/probably not needed; or anyone knows an example where this might be useful? -->
+    <xs:complexType name="availabilityList">
+        <xs:annotation>
+            <xs:documentation>Data availability statements, for example copyrights</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="availability" type="idf:availability" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Describes data availability, e.g. through a copyright statement. If no
+                    availability is given, the data is assumed to be freely available.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="availability">
+        <xs:annotation>
+            <xs:documentation>A text describing the availability of data, e.g. a copyright statement.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="id" type="xs:int" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <!--experiments-->
+    <xs:complexType name="experimentDescriptionList"> <!--only full description of experiments, used at entry level-->
+        <xs:annotation>
+            <xs:documentation>All experiments in which the structure states of this entry have been determined
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="experimentDescription" type="idf:experimentDescription" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Describes one set of experimental parameters, usually associated with
+                    a single publication.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="experimentList"> <!--either full description of experiments or reference to already described experiment, used at structure-state level-->
+        <xs:annotation>
+            <xs:documentation>List of experiments in which this structure has been determined.</xs:documentation>
+        </xs:annotation>
+        <xs:choice minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+                <xs:documentation>Either refer to an already defined experiment in this entry or insert description.
+                </xs:documentation>
+            </xs:annotation>
+            <xs:element name="experimentRef" type="xs:int">
+                <xs:annotation>
+                    <xs:documentation>References an experiment already present in this entry.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="experimentDescription" type="idf:experimentDescription">
+                <xs:annotation>
+                    <xs:documentation>Fully describe an experiment in which this structure has been determined.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    
+    <xs:complexType name="experimentDescription">
+        <xs:annotation>
+            <xs:documentation>Describes one set of experimental parameters.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names" minOccurs="0"/>
+            <xs:element name="bibref" type="idf:bibref">
+                <xs:annotation>
+                    <xs:documentation>Publication describing the experiment.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="xref" type="idf:xref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Refers to external database description of the experiment.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="hostOrganismList" type="idf:hostOrganismList" minOccurs="0"/>
+            <xs:element name="structureDeterminationMethod" type="idf:cvType">
+                <xs:annotation>
+                    <xs:documentation>Experimental method to determine the structure. This element should be 
+                    controlled by the IDPO controlled vocabulary, "structure determination method" root term; 
+                    eventually this will become the ECO ontology.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="moleculeIdentificationMethod" type="idf:cvType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Experimental method to identify the molecule from which the analysed region(s) is derived. 
+                        This element is controlled by the ECO controlled vocabulary.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="featureDetectionMethod" type="idf:cvType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Experimental method to determine the features of experimental constructs. If this element is 
+                    filled it is assumed to apply to all features described in the experiment, but it can be overridden by the 
+                    featureDetectionMethod given in the individual feature. This element is controlled by the ECO controlled 
+                    vocabulary.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            
+            <!-- Currently this element will not be used, until methods to derive a measure of confidence 
+            are clearly defined for IDP experiments
+            
+            <xs:element name="confidenceList" type="idf:confidenceList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Confidence in this experiment. Usually a statistical measure.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            -->
+            
+            <xs:element name="variableParameterList" type="idf:variableParameterList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>A list of (variable) parameters used in this experiment, eg temperature.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Semi-structured additional description of the experiment.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required">
+            <xs:annotation>
+                <xs:documentation>All major objects have a numerical id which must be unique to that object 
+                within an entry. The object may be repeated, though, e.g. in the denormalised representation.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <!--molecules-->
+    <xs:complexType name="moleculeList">
+        <xs:annotation>
+            <xs:documentation>List of all molecules occurring in the entry, i.e. all molecules from which 
+            regions analysed in the entry are derived</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="molecule" type="idf:molecule" minOccurs="1" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>A molecule object in its native state, as described in databases.
+                    </xs:documentation>
+                    <xs:documentation>Usage: A protein must contain an xref to UniProt and
+                    NCBI-GI where possible.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="molecule">
+        <xs:annotation>
+            <xs:documentation>Describes a molecule.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names">
+                <xs:annotation>
+                    <xs:documentation>Name(s). The short label is typically a short name that could appear as 
+                    a label on a diagram.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="xref" type="idf:xref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>A molecule should have an xref whenever possible. If the molecule is not available in external databases,
+                    it must be characterised within this object e.g. by its sequence.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+
+            <!-- Currently only proteins are used; in a next version effect of other molecular entities on 
+            structure state might be captured, in which case it becomes necessary to specify the type of molecule
+            
+            <xs:element name="moleculeType" type="idf:cvType">
+                <xs:annotation>
+                    <xs:documentation>The molecule type, e.g. protein. This element is controlled by a controlled vocabulary, 
+                    maybe protein ontology (PRO) or Chebi.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            -->
+            
+            <xs:element name="organism" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>The normal source organism of the molecule.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:complexContent>
+                        <xs:extension base="idf:bioSource"/>
+                    </xs:complexContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sequence" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Sequence in uppercase</xs:documentation>
+                    <xs:documentation>Usage:</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Allows semi-structured additional annotation of the molecule.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required">
+            <xs:annotation>
+                <xs:documentation>All major objects have a numerical id which is unique to that object within a PSI ID file. 
+                The object may be repeated, though, e.g. in the denormalised representation.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <!--regions-->
+    <xs:complexType name="region">
+        <xs:annotation>
+            <xs:documentation>The experimental region/construct for which the structure was determined.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>The name(s) of the analysed region given by the authors of a publication.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="xref" type="idf:xref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>The xref(s) for the region given by the authors of a publication.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="experimentalRegionRangeList">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="experimentalRegionRange" type="idf:baseLocation" maxOccurs="unbounded">
+                            <xs:annotation>
+                                <xs:documentation>Location of the feature on the sequence of the molecule 
+                                    described in an external resource. One feature may have more than one
+                                    featureRange, used e.g. for features which involve sequence positions close 
+                                    in the folded, three-dimensional state of a protein, but non-continuous 
+                                    along the sequence.</xs:documentation>
+                            </xs:annotation>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sequence" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Sequence in uppercase</xs:documentation>
+                    <xs:documentation>Usage:</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:choice>
+                <xs:annotation>
+                    <xs:documentation>Description of the source molecule of the region. Refers to an 
+                    already defined molecule in this entry (in moleculeList, for compact form), or 
+                    fully describes a source molecule.</xs:documentation>
+                </xs:annotation>
+                <xs:element name="moleculeRef" type="xs:int">
+                    <xs:annotation>
+                        <xs:documentation>References a source molecule described in the moleculeList 
+                        of the entry (for compact form).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="molecule" type="idf:molecule">
+                    <xs:annotation>
+                        <xs:documentation>Fully describes a source molecule (in expanded form).</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:choice>
+            <xs:element name="moleculeIdentificationMethodList" type="idf:moleculeIdentificationMethodList" minOccurs="0"/>
+            <xs:element name="experimentalPreparationList" type="idf:experimentalPreparationList" minOccurs="0"/>
+            <xs:element name="featureList" type="idf:featureList" minOccurs="0"/>
+            <xs:element name="hostOrganismList" type="idf:hostOrganismList" minOccurs="0"/>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Semi-structured additional description of the data contained in the entry.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+    </xs:complexType>
+    
+    <!--features-->
+    <xs:complexType name="featureList">
+        <xs:annotation>
+            <xs:documentation>Sequence features relevant for the structure state of the region, such as PTM, 
+            or for instance experimental modifications, e.g. protein tags.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="feature" type="idf:feature" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="feature">
+        <xs:annotation>
+            <xs:documentation>A feature on a sequence, or any modifications made to the source sequence.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Names for the feature.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="xref" type="idf:xref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Reference to an external description of the feature.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="featureType" type="idf:cvType" maxOccurs="1" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Description and classification of the feature. This element is 
+                    controlled by the PSI-MI controlled vocabulary "feature", root term id MI:0116.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="featureDetectionMethod" type="idf:cvType" maxOccurs="unbounded" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Experimental method used to identify the feature. A setting here 
+                        overrides the global setting given in the experimentDescription. This element is controlled 
+                        by he ECO controlled vocabulary.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="featureRangeList">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="featureRange" type="idf:baseLocation" maxOccurs="unbounded">
+                            <xs:annotation>
+                                <xs:documentation>Location of the feature on the sequence of the molecule 
+                                described in an external resource. One feature may have more than one
+                                featureRange, used e.g. for features which involve sequence positions close 
+                                in the folded, three-dimensional state of a protein, but non-continuous 
+                                along the sequence.</xs:documentation>
+                            </xs:annotation>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Semi-structured additional description of the data contained in the entry.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+    </xs:complexType>
+    
+    <!--structure states-->
+    <xs:complexType name="structureStateList">
+        <xs:annotation>
+            <xs:documentation>List of experimentally determined structure states of region(s)</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="structureState" type="idf:structureState">
+                    <xs:annotation>
+                        <xs:documentation>Description of the structure state of one or more regions of an 
+                        experimental construct as determined by one experimental method described in a publication</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="structureState">
+        <xs:annotation>
+            <xs:documentation>A structure state of one experimental construct described with some experimental 
+            context. Different regions having a different structural state can be defined for one experimental 
+            construct.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Name(s) of the structure state.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="xref" type="idf:xref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Reference to an external resource describing this structure state 
+                    for this region as determined by this experiment</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:choice minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Either refer to an already defined availability statement in this 
+                    entry (compact) or insert availability description (expanded).</xs:documentation>
+                </xs:annotation>
+                <xs:element name="availabilityRef" type="xs:int">
+                    <xs:annotation>
+                        <xs:documentation>References an availability statement already present in this entry.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="availability" type="idf:availability">
+                    <xs:annotation>
+                        <xs:documentation>Describes the availability of the structural data. If no 
+                        availability is given, the data is assumed to be freely available.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:choice>
+            <xs:element name="experimentList" type="idf:experimentList"/>
+            <xs:element name="experimentalRegion" type="idf:region">
+                <xs:annotation>
+                <xs:documentation>Description of the tested region, ie the construct that was used in the 
+                experiment.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="structureStateRegionList" type="idf:structureStateRegionList" minOccurs="1">
+                <xs:annotation>
+                <xs:documentation>List of structural states observed for different regions of the tested construct.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+
+            <!-- Currently this element will not be used, until methods to derive a measure of confidence 
+            are clearly defined for IDP experiments
+            
+            <xs:element name="confidenceList" type="idf:confidenceList" minOccurs="0"/>
+            -->
+            
+            <xs:element name="experimentalVariableValueList" type="idf:experimentalVariableValueList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>A list of variable/dynamic parameters used in this experiment to 
+                    investigate dynamic structure states.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required">
+            <xs:annotation>
+                <xs:documentation>All major objects have a numerical id which is unique to that object 
+                within a PSI ID file. The object may be repeated, though, e.g. in the denormalised representation.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="structureStateRegionList">
+        <xs:annotation>
+            <xs:documentation>List of one or more structural states observed for one or more regions of the 
+            experimental construct.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="structureStateRegion" type="idf:structureStateRegion" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="structureStateRegion">
+        <xs:annotation>
+            <xs:documentation>A structural state observed for one or more regions of an experimenta; construct.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="xref" type="idf:xref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Reference to an external resource describing this structure state 
+                        for this region as determined by this experiment</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="structureStateType" type="idf:cvType" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>External controlled vocabulary (IDPO) characterising the structure state 
+                        type, currently with binary classification "ordered" and "intrinsically disordered".</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="structureStateRegionRange" type="idf:baseLocation" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Definition of the region of the tested construct for which 
+                        the described structure state applies.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="sequence" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation>Sequence in uppercase</xs:documentation>
+                    <xs:documentation>Usage:</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Semi-structured additional description of the data contained in the entry.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+    </xs:complexType>
+    
+    <!--ADMIN ELEMENTS-->
+    
+    <!--confidence-->
+    <!-- Currently this element will not be used, until methods to derive a measure of confidence 
+    are clearly defined for IDP experiments
+    
+    <xs:complexType name="confidenceList">
+        <xs:annotation>
+            <xs:documentation>A list of confidence values.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="confidence" type="idf:confidenceBase" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="confidenceBase">
+        <xs:annotation>
+            <xs:documentation>A confidence value.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="unit" type="idf:openCvType"/>
+            <xs:element name="value">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    -->
+    
+    <!--(variable) parameters and values-->
+    <xs:complexType name="variableParameterList">
+        <xs:annotation>
+            <xs:documentation>A list of (variable) parameters used in this experiment, eg (variable) temperature.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="variableParameter" type="idf:variableParameter" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="variableParameter">
+        <xs:annotation>
+            <xs:documentation>Describes one (variable parameter) and its value(s) in this experiment, eg temperature.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="description" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>Free description of the (variable parameter).</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="unit" type="idf:openCvType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Unit of the (variable) parameter value(s).</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="variableValueList" type="idf:variableValueList">
+                <xs:annotation>
+                    <xs:documentation>List of the (different) value(s) for this specific variableParameter in this experiment.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="variableValueList">
+        <xs:annotation>
+            <xs:documentation>List of the (different) value(s) for a specific variableParameter in a specific experiment.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="variableValue" type="idf:variableValue" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="variableValue">
+        <xs:annotation>
+            <xs:documentation>A value for a specific variableParameter in a specific experiment, eg temperature.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="value" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>Free description of the variable value. It can be numerical value or 
+                    qualitative value depending on the variableParameter.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required">
+            <xs:annotation>
+                <xs:documentation>Unique numerical identifier for this variableValue so a structure state can 
+                refer to it later. The id has to be unique within a same entry.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="order" type="xs:int" use="optional">
+            <xs:annotation>
+                <xs:documentation>Optional numerical order attribute to give an explicit order for a 
+                variableValue in the variableValueList.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="experimentalVariableValueList">
+        <xs:annotation>
+            <xs:documentation>A list of experimental parameter/condition values for which the structure
+            state is observed.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="experimentalVariableValues" minOccurs="1" maxOccurs="unbounded" type="idf:experimentalVariableValues">
+                <xs:annotation>
+                    <xs:documentation>A set of experimental parameter/conditions values applied together 
+                    and for which this structure state is observed.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="experimentalVariableValues">
+        <xs:annotation>
+            <xs:documentation>A set of experimental parameter/conditions values applied together and 
+            for which this structure state is observed.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="variableValueRef" minOccurs="1" maxOccurs="unbounded" type="xs:int">
+                <xs:annotation>
+                    <xs:documentation>The reference to the id of the variableValue described in the
+                    variableParameterList/variableParameter/variableParameterValueList of the experiment.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--CV type-->
+    <xs:complexType name="cvType">
+        <xs:annotation>
+            <xs:documentation>Reference to an external controlled vocabulary.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names">
+                <xs:annotation>
+                    <xs:documentation>Name of the controlled vocabulary term.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="xref" type="idf:xref">
+                <xs:annotation>
+                    <xs:documentation>Source of the controlled vocabulary term. E.g. the name of 
+                        the CV and the term ID.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="openCvType">
+        <xs:annotation>
+            <xs:documentation>Allows to reference an external controlled vocabulary, or to directly 
+                include a value if no suitable external definition is available.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names">
+                <xs:annotation>
+                    <xs:documentation>This contains the controlled vocabulary terms, as a short and 
+                        optionally as a long form.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="xref" type="idf:xref" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Refers to the term of the controlled vocabulary in an external 
+                        database.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="attributeList" type="idf:attributeList" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>If no suitable external controlled vocabulary is available, this 
+                        attributeList can be used to describe the term. Example: Attribute name: Mouse atlas 
+                        tissue name; attribute value: spinal cord, day 30.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--names-->
+    <xs:complexType name="names">
+        <xs:annotation>
+            <xs:documentation>Names for an object.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="shortLabel" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>A short string, suitable to remember the object. Can be e.g. a protein 
+                    name, the first author of a paper, etc.</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="fullName" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>A full, detailed name or description of the object. Can be e.g. the 
+                    full title of a publication, or the scientific name of a species.</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="alias" type="idf:alias" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="label">
+        <xs:annotation>
+            <xs:documentation>A short alphanumeric label identifying an object. Not necessarily unique.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string"/>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="fullName">
+        <xs:annotation>
+            <xs:documentation>Full, descriptive object name.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string"/>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="alias">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="typeAc" use="optional">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="1"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="type" use="optional">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="1"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <!--source/host organism-->
+    <xs:complexType name="bioSource">
+        <xs:annotation>
+            <xs:documentation>Describes the biological source of an object, in simple form only the NCBI taxid.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="names" type="idf:names" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>The names of the organism. The short label should be a common name if it exists. 
+                    The full name should be the full name of the species (i.e. genus species).</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="cellType" type="idf:openCvType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Description of the cell type. Currently no species-independent controlled vocabulary 
+                    for cell types is available, therefore the choice of reference database(s) is open to the data provider.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="compartment" type="idf:openCvType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>The subcellular compartment of the object. It is strongly recommended to refer to the 
+                    Gene Ontology cellular component in this element.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="tissue" type="idf:openCvType" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Description of the source tissue. Currently no species-independent controlled vocabulary 
+                    for tissues is available, therefore the choice of reference database(s) is open to the data provider.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="ncbiTaxId" type="xs:int" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="hostOrganismList">
+        <xs:annotation>
+            <xs:documentation>The host organism(s) in which the experiment has been performed.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="hostOrganism" type="idf:hostOrganism" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="hostOrganism">
+        <xs:complexContent>
+            <xs:extension base="idf:bioSource">
+                <xs:sequence minOccurs="0">
+                    <xs:element name="experimentRefList" type="idf:experimentRefList" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <!--bibliographic and cross reference, both using dbRef type-->
+    <xs:complexType name="bibref">
+        <xs:annotation>
+            <xs:documentation>Bibliographic reference.</xs:documentation>
+        </xs:annotation>
+        <xs:choice minOccurs="1" maxOccurs="1">
+            <xs:sequence>
+                <xs:element name="xref" type="idf:xref" minOccurs="1" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Bibliographic reference in external database, usually PubMed.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element name="attributeList" type="idf:attributeList" minOccurs="0" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Additional description of bibliographic reference such as publication 
+                        title, authors, journal, publication date...</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+            <xs:sequence>
+                <xs:element name="attributeList" type="idf:attributeList" minOccurs="1" maxOccurs="1">
+                    <xs:annotation>
+                        <xs:documentation>Alternative description of bibliographic reference if no external 
+                        database entry is available.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+        </xs:choice>
+    </xs:complexType>
+    
+    <xs:complexType name="xref">
+        <xs:annotation>
+            <xs:documentation>Crossreference to an external database. Crossreferences to literature databases, 
+            e.g. PubMed, should not be put into this structure, but into the bibRef element where possible.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="primaryRef" type="idf:dbReference">
+                <xs:annotation>
+                    <xs:documentation>Primary reference to an external database.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="secondaryRef" type="idf:dbReference" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>Further external objects describing the object.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="dbReference">
+        <xs:annotation>
+            <xs:documentation>Refers to a unique object in an external database, eg a protein in UniProt 
+            or an entry in DisProt.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence minOccurs="0">
+            <xs:element name="attributeList" type="idf:attributeList"/>
+        </xs:sequence>
+        <xs:attribute name="db" use="required">
+            <xs:annotation>
+                <xs:documentation>Name of the external database, taken from the controlled vocabulary of 
+                databases.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="dbAc" use="optional">
+            <xs:annotation>
+                <xs:documentation>Accession number of the database in the database CV. This element is 
+                controlled by the PSI-MI CV "database citation", root term id MI:0444.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="id" use="required">
+            <xs:annotation>
+                <xs:documentation>Primary identifier of the object in the external database, e.g. UniProt accession number.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="secondary" use="optional">
+            <xs:annotation>
+                <xs:documentation>Secondary identifier of the object in the external database, e.g. UniProt ID.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="version" use="optional">
+            <xs:annotation>
+                <xs:documentation>The version number of the object in the external database.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="refType" use="optional">
+            <xs:annotation>
+                <xs:documentation>Reference type, e.g. "identity" if this reference refers to an identical object 
+                in the external database, or "see-also" for additional information, using a term from PSI-MI CV, 
+                root term cross-reference type (MI:0353).</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="refTypeAc" use="optional">
+            <xs:annotation>
+                <xs:documentation>Reference type accession number from the CV of reference types. This element is 
+                    controlled by the PSI-MI CV "xref type", root term id MI:0353.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <!--within entry references-->
+    <xs:complexType name="experimentRefList">
+        <xs:annotation>
+            <xs:documentation>Refers to a list of experiments within the same entry.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="experimentRef" type="xs:int" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:documentation>References an experiment already present in this entry.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--experimental identification of molecule/experimental construct-->
+    <xs:complexType name="moleculeIdentificationMethodList">
+        <xs:annotation>
+            <xs:documentation>The method(s) by which this experimental construct has been determined. If this 
+                element is present, its value supersedes experimentDescription/moleculeIdentificationMethod.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="moleculeIdentificationMethod" type="idf:moleculeIdentificationMethod" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="moleculeIdentificationMethod">
+        <xs:annotation>
+            <xs:documentation>Experimental method to determine the experimental construct analysed in the 
+                experiment. This element is controlled by the ECO controlled vocabulary.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="idf:cvType">
+                <xs:sequence minOccurs="0">
+                    <xs:element name="experimentRefList" type="idf:experimentRefList" minOccurs="0">
+                        <xs:annotation>
+                            <xs:documentation>If no experimentRef is given, it is assumed this refers to all
+                                experiments linked to the structure state.
+                            </xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <!--experimental preparation of regions-->
+    <xs:complexType name="experimentalPreparationList">
+        <xs:annotation>
+            <xs:documentation>Terms describing the experimental preparation of studied regions.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="experimentalPreparation" type="idf:cvType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--location of a feature on a sequence-->
+    <xs:complexType name="baseLocation">
+        <xs:annotation>
+            <xs:documentation>A location on a sequence. Both begin and end can be a defined position, 
+            a fuzzy position, or undetermined.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:sequence>
+                <xs:element name="startStatus" type="idf:cvType">
+                    <xs:annotation>
+                        <xs:documentation>Attribute of the start positions, e.g. "certain" or 
+                        "n-terminal"</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:choice minOccurs="0">
+                    <xs:element name="begin" type="idf:position">
+                        <xs:annotation>
+                            <xs:documentation>The integer position gives the begin position of the 
+                            feature. The first base or amino acid is position 1. In combination with 
+                            the numeric value, the attribute 'status' allows to express fuzzy 
+                            positions, e.g. 'less than 4'. Negative positions can be used to describe 
+                            promotor regions but should not be allowed for proteins</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="beginInterval" type="idf:interval">
+                        <xs:annotation>
+                            <xs:documentation>The begin position may be varying or unclear, but 
+                            localisable to a certain range. Usually written as e.g. 3..5. Negative 
+                            positions can be used to describe promotor regions but should not be 
+                            allowed for proteins</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:choice>
+            </xs:sequence>
+            <xs:sequence>
+                <xs:element name="endStatus" type="idf:cvType">
+                    <xs:annotation>
+                        <xs:documentation>Attribute of the end positions, e.g. "certain" or 
+                        "c-terminal"</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+                <xs:choice minOccurs="0">
+                    <xs:element name="end" type="idf:position">
+                        <xs:annotation>
+                            <xs:documentation>The integer position gives the end position of the 
+                            feature. The first base or amino acid is position 1. In combination with 
+                            the numeric value, the attribute 'status' allows to express fuzzy positions,
+                            e.g. 'more than 400'. Negative positions can be used to describe promotor 
+                            regions but should not be allowed for proteins</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="endInterval" type="idf:interval">
+                        <xs:annotation>
+                            <xs:documentation>The end position may be varying or unclear, but 
+                            localisable to a certain range. Usually written as e.g. 3..5. Negative 
+                            positions can be used to describe promotor regions but should not be 
+                            allowed for proteins</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:choice>
+            </xs:sequence>
+            <xs:element name="isLink" type="xs:boolean" default="false" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>True if the described feature is a linking feature connecting 
+                    two amino acids rather than extending along the sequence. 'begin' references the 
+                    first amino acid, 'end' the second. Standard example is a disulfide bridge. Does 
+                    not reference another feature, therefore is only suitable for linking features on 
+                    the same amino acid chain.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="position">
+        <xs:attribute name="position" type="xs:long" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="interval">
+        <xs:annotation>
+            <xs:documentation>An interval on a sequence.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="begin" type="xs:long" use="required"/>
+        <xs:attribute name="end" type="xs:long" use="required"/>
+    </xs:complexType>
+    
+    <!--attributelist and attribute-->
+    <xs:complexType name="attributeList">
+        <xs:annotation>
+            <xs:documentation>A list of additional attributes. Open tag-value list to allow the inclusion of additional data.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="attribute" type="idf:attribute" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="attribute">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="name" use="required">
+                    <xs:annotation>
+                        <xs:documentation>The name of the attribute, taken from CV.</xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="1"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="nameAc" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Enables control of the attribute type through reference to an external
+                            controlled vocabulary.
+                        </xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="1"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    
+    
+    
+    
+    
+    
+
+</xs:schema>

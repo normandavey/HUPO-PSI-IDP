@@ -35,7 +35,7 @@ Thsis directory contains describing HUPO-PSI guidelines and standards. **All doc
 Report on ELIXIR funded project to define preliminary draft of the standards and guidelines for the exchange of structural data relating to intrinsically disordered protein region [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
 
 #### HUPO-PSI MIADE guidelines:
-Draft document of the MIADE guidelines[here](https://docs.google.com/document/d/1SK7UvZrpg6KQkkXpcN90Pipqhyc_DdoUNHTWxnX0H-M/edit?ts=60016618).
+Draft document of the MIADE guidelines [here](https://docs.google.com/document/d/1SK7UvZrpg6KQkkXpcN90Pipqhyc_DdoUNHTWxnX0H-M/edit?ts=60016618).
 
 #### HUPO-PSI-ID XML format:
 An annotated example of the HUPO-PSI-ID XML format is available [here](./formats/xml/HUPO-PSI-ID_XML_format_full_annotated.xml)
