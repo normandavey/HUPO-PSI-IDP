@@ -28,19 +28,22 @@ Current projects of the PSI-ID working group are:
 
 **Goal 5:** Defining the scope and priorities for version 1.0 of the CV for IDPs
 
-### HUPO-PSI MIADE guidelines:
-Full details are available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
+### HUPO-PSI guidelines and standards:
+Thsis directory contains describing HUPO-PSI guidelines and standards. **All documents are in draft form** and have not been submitted by the HUPO-PSI review process. We are happy to have new contriibutors to the project.
 
-### HUPO-PSI-ID XML format:
-An annotated example of the HUPO-PSI-ID XML format is available [here](./HUPO-PSI-ID_XML_format_full_annotated.xml)
+#### Report on the HUPO-PSI guidelines and standards:
+Report on ELIXIR funded project to define preliminary draft of the standards and guidelines for the exchange of structural data relating to intrinsically disordered protein region [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
 
-A simple example of the HUPO-PSI-ID XML format holding a IDR annotation is available [here](./HUPO-PSI-ID_XML_format_compact_NFAT_example.xml)
+#### HUPO-PSI MIADE guidelines:
+Draft document of the MIADE guidelines[here](https://docs.google.com/document/d/1SK7UvZrpg6KQkkXpcN90Pipqhyc_DdoUNHTWxnX0H-M/edit?ts=60016618).
 
-### HUPO-PSI-ID TAB format:
-An annotated example of the HUPO-PSI-ID TAB format is available [here](./HUPO-PSI-ID_TAB_format.xlsx)
+#### HUPO-PSI-ID XML format:
+An annotated example of the HUPO-PSI-ID XML format is available [here](./formats/xml/HUPO-PSI-ID_XML_format_full_annotated.xml)
 
-### Documentation:
-The draft report "Preliminary draft of the standards and guidelines for the exchange of structural data relating to intrinsically disordered protein regions" is available [here](https://docs.google.com/document/d/1vVGQ40wyZAT27CBaWFdg2FTJK-AoAfPo2b1H-Uk6Fgo/edit?usp=sharing).
+A simple example of the HUPO-PSI-ID XML format holding a IDR annotation is available [here](./formats/xml/examples/HUPO-PSI-ID_XML_format_compact_NFAT_example.xml)
+
+#### HUPO-PSI-ID TAB format:
+An annotated example of the HUPO-PSI-ID TAB format is available [here](./formats/tab/HUPO-PSI-ID_TAB_format.xlsx)
 
 ### Administrative:
 **Group Name:** HUPO PSI Intrinsic Disorder Working Group (PSI-ID WG)
