@@ -6,6 +6,9 @@ This record is incomplete and was not started until several years into the proje
 
 ### Minutes
 
+
+--------------
+
 #### 26th January 2021
 ##### Attendees
 Norman Davey
@@ -26,6 +29,11 @@ Define a simple abstract guideline for residue and region specific attributes in
 Read the MIADE guideline and comment
 Add Sample to the XML 
 Define Sample use cases and find issues
+
+
+
+
+--------------
 
 ### Template
 #### DATE
