@@ -11,9 +11,9 @@ This record is incomplete and was not started until several years into the proje
 
 #### 26th January 2021
 ##### Attendees
-Norman Davey
-Kim Van Roey
-Wim Vranken
+- Norman Davey
+- Kim Van Roey
+- Wim Vranken
 
 ##### Discussion points
 - Updates on the MIADE 
@@ -29,7 +29,7 @@ Wim Vranken
 - Read the MIADE guideline and comment
 - Add Sample to the XML 
 - Define Sample use cases and find issues
-
+- Continue work on community announcment paper
 
 --------------
 
