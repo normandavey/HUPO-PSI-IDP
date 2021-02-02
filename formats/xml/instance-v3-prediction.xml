@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entrySet xmlns="http://psi.hupo.org/id/idf100"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://psi.hupo.org/id/idf100 file:/Users/roey/Desktop/IDP/PSI-ID-XML_schema/version-3/PSI-ID_schema-v3.xsd" level="1" version="0" minorVersion="0">
+    <entry>
+        <moleculeList>
+            <molecule id="1">
+                <names>
+                    <shortLabel>P03372</shortLabel>
+                    <fullName>Estrogen receptor</fullName>
+                    <alias typeAc="ID:0000" type="gene name">ESR1</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="ID:0000" id="P03372" refType="identity" refTypeAc="ID:0000"/>
+                </xref>
+                <organism ncbiTaxId="9606">
+                    <names>
+                        <shortLabel>human</shortLabel>
+                        <fullName>Homo sapiens</fullName>
+                    </names>
+                </organism>
+                <sequence>MTMTLHTKASGMALLHQIQGNELEPLNRPQLKIPLERPLGEVYLDSSKPAVYNYPEGAAYEFNAAAAANAQVYGQTGLPYGPGSEAAAFGSNGLGGFPPLNSVSPSPLMLLHPPPQLSPFLQPHGQQVPYYLENEPSGYTVREAGPPAFYRPNSDNRRQGGRERLASTNDKGSMAMESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMLKHKRQRDDGEGRGEVGSAGDMRAANLWPSPLMIKRSKKNSLALSLTADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLYDLLLEMLDAHRLHAPTSRGGASVEETDQSHLATAGSTSSHSLQKYYITGEAEGFPATV</sequence>
+            </molecule>
+        </moleculeList>
+        <experimentList>
+            <experimentDescription id="2">
+                <names>
+                    <shortLabel>iupred prediction</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="15955779" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                </bibref>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>computational evidence</shortLabel>
+                        <fullName>computational evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0007672" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <inferredStructureStateList>
+                    <inferredStructureState id="3">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="26"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="31"/>
+                        </structureStateRegionRange>
+                        <sequence>LNRPQL</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="4">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="150"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="173"/>
+                        </structureStateRegionRange>
+                        <sequence>YRPNSDNRRQGGRERLASTNDKGS</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="5">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="261"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="280"/>
+                        </structureStateRegionRange>
+                        <sequence>GGRMLKHKRQRDDGEGRGEV</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="6">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="555"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="571"/>
+                        </structureStateRegionRange>
+                        <sequence>RGGASVEETDQSHLATA</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="7">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>order</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00079" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="25"/>
+                        </structureStateRegionRange>
+                        <sequence>MTMTLHTKASGMALLHQIQGNELEP</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="8">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>order</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00079" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="32"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="149"/>
+                        </structureStateRegionRange>
+                        <sequence>KIPLERPLGEVYLDSSKPAVYNYPEGAAYEFNAAAAANAQVYGQTGLPYGPGSEAAAFGSNGLGGFPPLNSVSPSPLMLLHPPPQLSPFLQPHGQQVPYYLENEPSGYTVREAGPPAF</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="9">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>order</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00079" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="174"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="260"/>
+                        </structureStateRegionRange>
+                        <sequence>MAMESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRR</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="10">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>order</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00079" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="281"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="554"/>
+                        </structureStateRegionRange>
+                        <sequence>GSAGDMRAANLWPSPLMIKRSKKNSLALSLTADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLYDLLLEMLDAHRLHAPTS</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="11">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>order</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00079" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="572"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="595"/>
+                        </structureStateRegionRange>
+                        <sequence>GSTSSHSLQKYYITGEAEGFPATV</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+                <attributeList>
+                    <attribute name="url" nameAc="ID:0000">https://iupred2a.elte.hu/</attribute>
+                    <attribute name="comment" nameAc="ID:0000">IUPred2 long disorder (default)</attribute>
+                    <attribute name="comment" nameAc="ID:0000">Context-dependent predictions (default ANCHOR2)</attribute>
+                    <attribute name="url" nameAc="ID:0000">cut-off iupred score was set at 0.6</attribute>
+                </attributeList>
+            </experimentDescription>
+            <experimentDescription id="12">
+                <names>
+                    <shortLabel>prdos prediction</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="17567614" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                </bibref>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>computational evidence</shortLabel>
+                        <fullName>computational evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0007672" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <inferredStructureStateList>
+                    <inferredStructureState id="13">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="13"/>
+                        </structureStateRegionRange>
+                        <sequence>MTMTLHTKASGMA</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="14">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="19"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="39"/>
+                        </structureStateRegionRange>
+                        <sequence>QGNELEPLNRPQLKIPLERPL</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="15">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="72"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="110"/>
+                        </structureStateRegionRange>
+                        <sequence>VYGQTGLPYGPGSEAAAFGSNGLGGFPPLNSVSPSPLML</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="16">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="124"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="180"/>
+                        </structureStateRegionRange>
+                        <sequence>HGQQVPYYLENEPSGYTVREAGPPAFYRPNSDNRRQGGRERLASTNDKGSMAMESAK</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="17">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="258"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="312"/>
+                        </structureStateRegionRange>
+                        <sequence>DRRGGRMLKHKRQRDDGEGRGEVGSAGDMRAANLWPSPLMIKRSKKNSLALSLTA</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="18">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="462"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="470"/>
+                        </structureStateRegionRange>
+                        <sequence>LSSTLKSLE</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="19">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="549"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="595"/>
+                        </structureStateRegionRange>
+                        <sequence>LHAPTSRGGASVEETDQSHLATAGSTSSHSLQKYYITGEAEGFPATV</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+                <attributeList>
+                    <attribute name="url" nameAc="ID:0000">http://prdos.hgc.jp/cgi-bin/top.cgi</attribute>
+                    <attribute name="comment" nameAc="ID:0000">Prediction false positive rate 5%</attribute>
+                </attributeList>
+            </experimentDescription>
+        </experimentList>
+    </entry>
+</entrySet>

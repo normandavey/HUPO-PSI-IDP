@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entrySet xmlns="http://psi.hupo.org/id/idf100"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://psi.hupo.org/id/idf100 file:/Users/roey/Desktop/IDP/PSI-ID-XML_schema/version-3/PSI-ID_schema-v3.xsd" level="1" version="0" minorVersion="0">
+    <entry>
+        <moleculeList>
+            <molecule id="1">
+                <names>
+                    <shortLabel>P19793</shortLabel>
+                    <fullName>Retinoic acid receptor RXR-alpha</fullName>
+                    <alias typeAc="ID:0000" type="gene name">RXRA</alias>
+                    <alias typeAc="ID:0000" type="gene name synonym">NR2B1</alias>
+                    <alias typeAc="ID:0000" type="display_short">RXRA</alias>
+                    <alias typeAc="ID:0000" type="display_long">RXRA_HUMAN</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="ID:0000" id="P19793" refType="identity" refTypeAc="ID:0000"/>
+                    <secondaryRef db="uniprotkb" dbAc="ID:0000" id="B3KY83" refType="secondary-ac" refTypeAc="ID:0000"/>
+                    <secondaryRef db="ensembl" dbAc="ID:0000" id="ENSG00000186350" refType="gene product" refTypeAc="ID:0000"/>
+                    <secondaryRef db="refseq" dbAc="ID:0000" id="NP_002948.1" refType="identity" refTypeAc="ID:0000"/>
+                </xref>
+                <organism ncbiTaxId="9606">
+                    <names>
+                        <shortLabel>human</shortLabel>
+                        <fullName>Homo sapiens</fullName>
+                    </names>
+                </organism>
+                <sequence>MDTKHFLPLDFSTQVNSSLTSPTGRGSMAAPSLHPSLGPGIGSPGQLHSPISTLSSPINGMGPPFSVISSPMGPHSMSVPTTPTLGFSTGSPQLSSPMNPVSSSEDIKPPLGLNGVLKVPAHPSGNMASFTKHICAICGDRSSGKHYGVYSCEGCKGFFKRTVRKDLTYTCRDNKDCLIDKRQRNRCQYCRYQKCLAMGMKREAVQEERQRGKDRNENEVESTSSANEDMPVERILEAELAVEPKTETYVEANMGLNPSSPNDPVTNICQAADKQLFTLVEWAKRIPHFSELPLDDQVILLRAGWNELLIASFSHRSIAVKDGILLATGLHVHRNSAHSAGVGAIFDRVLTELVSKMRDMQMDKTELGCLRAIVLFNPDSKGLSNPAEVEALREKVYASLEAYCKHKYPEQPGRFAKLLLRLPALRSIGLKCLEHLFFFKLIGDTPIDTFLMEMLEAPHQMT</sequence>
+            </molecule>
+        </moleculeList>
+        <experimentList>
+            <experimentDescription id="2">
+                <names>
+                    <shortLabel>belorusova-1</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="26937780" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Belorusova et al.</attribute>
+                        <attribute name="publication title" nameAc="ID:0000">Behavior of the Intrinsically Disordered N-Terminal Domain of Retinoid X Receptor α in the Context of the Full-Length Protein.</attribute>
+                        <attribute name="journal" nameAc="ID:0000">Biochemistry</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>NMR</shortLabel>
+                        <fullName>nuclear magnetic resonance</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00120" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <inferredStructureStateList>
+                    <inferredStructureState id="3">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00062r002" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="130"/>
+                        </structureStateRegionRange>
+                        <sequence>MDTKHFLPLDFSTQVNSSLTSPTGRGSMAAPSLHPSLGPGIGSPGQLHSPISTLSSPINGMGPPFSVISSPMGPHSMSVPTTPTLGFSTGSPQLSSPMNPVSSSEDIKPPLGLNGVLKVPAHPSGNMASF</sequence>
+                        <attributeList>
+                            <attribute name="comment" nameAc="ID:0000">
+                                Statements Results: Experimental evidence of the disordered state of the RXRα NTD was provided by liquid state NMR. [...] these experiments indicate that the NTD of RXRα in the context of the full-length protein is mostly disordered, and its state is only marginally affected upon binding to DNA.
+                            </attribute>
+                        </attributeList>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="4">
+                <names>
+                    <shortLabel>belorusova-2</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="26937780" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Belorusova et al.</attribute>
+                        <attribute name="publication title" nameAc="ID:0000">Behavior of the Intrinsically Disordered N-Terminal Domain of Retinoid X Receptor α in the Context of the Full-Length Protein.</attribute>
+                        <attribute name="journal" nameAc="ID:0000">Biochemistry</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>SAXS</shortLabel>
+                        <fullName>small-angle x-ray scattering</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00125" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <inferredStructureStateList>
+                    <inferredStructureState id="5">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00062r001" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="130"/>
+                        </structureStateRegionRange>
+                        <sequence>MDTKHFLPLDFSTQVNSSLTSPTGRGSMAAPSLHPSLGPGIGSPGQLHSPISTLSSPINGMGPPFSVISSPMGPHSMSVPTTPTLGFSTGSPQLSSPMNPVSSSEDIKPPLGLNGVLKVPAHPSGNMASF</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="6">
+                <names>
+                    <shortLabel>holmbeck-1</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="9698548" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Holmbeck et al.</attribute>
+                        <attribute name="publication title" nameAc="ID:0000">High-resolution solution structure of the retinoid X receptor DNA-binding domain.</attribute>
+                        <attribute name="journal" nameAc="ID:0000">J Mol Biol</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1998</attribute>
+                    </attributeList>
+                </bibref>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>NMR</shortLabel>
+                        <fullName>nuclear magnetic resonance</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00120" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <inferredStructureStateList>
+                    <inferredStructureState id="7">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00062r013" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="169"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="189"/>
+                        </structureStateRegionRange>
+                        <sequence>YTCRDNKDCLIDKRQRNRCQY</sequence>
+                        <attributeList>
+                            <attribute name="comment" nameAc="ID:0000">
+                                Statements Results: The non-helical regions of the structure are less well-ordered, in particular the region between the first and second helix, residues 169 to 189.
+                            </attribute>
+                        </attributeList>
+                    </inferredStructureState>
+                    <inferredStructureState id="8">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00062r008" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <moleculeRef>1</moleculeRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="178"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="187"/>
+                        </structureStateRegionRange>
+                        <sequence>LIDKRQRNRC</sequence>
+                        <attributeList>
+                            <attribute name="comment" nameAc="ID:0000">
+                                Statements Results: The {1H}-15N NOEs show that residues 178 to 187 clearly exhibit smaller than average NOE values, indicating increased flexibility in this region.
+                            </attribute>
+                        </attributeList>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+        </experimentList>
+    </entry>
+</entrySet>

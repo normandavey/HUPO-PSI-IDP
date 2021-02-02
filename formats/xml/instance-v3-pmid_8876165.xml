@@ -1,0 +1,2765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entrySet xmlns="http://psi.hupo.org/id/idf100"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://psi.hupo.org/id/idf100 file:/Users/roey/Desktop/IDP/PSI-ID-XML_schema/version-3/PSI-ID_schema-v3.xsd" level="1" version="0" minorVersion="0">
+    <entry>
+        <moleculeList>
+            <molecule id="1">
+                <names>
+                    <shortLabel>P38936</shortLabel>
+                    <fullName>Cyclin-dependent kinase inhibitor 1</fullName>
+                    <alias typeAc="ID:0000" type="display_long">cdn1a_human</alias>
+                    <alias typeAc="ID:0000" type="display_short">CDN1A</alias>
+                    <alias typeAc="ID:0000" type="gene name">CDKN1A</alias>
+                    <alias typeAc="ID:0000" type="gene name synonym">CIP1</alias>
+                    <alias typeAc="ID:0000" type="gene name synonym">WAF1</alias>
+                    <alias typeAc="ID:0000" type="gene name synonym">SDI1</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="ID:0000" id="P38936" refType="identity" refTypeAc="ID:0000"/>
+                    <secondaryRef db="uniprotkb" dbAc="ID:0000" id="Q14010" refType="secondary-ac" refTypeAc="ID:0000"/>
+                    <secondaryRef db="refseq" dbAc="ID:0000" id="NP_000380.1" refType="identity" refTypeAc="ID:0000"/>
+                </xref>
+                <moleculeType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </moleculeType>
+                <organism ncbiTaxId="9606">
+                    <names>
+                        <shortLabel>human</shortLabel>
+                        <fullName>Homo sapiens</fullName>
+                    </names>
+                </organism>
+                <sequence>MSEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRRPGTSPALLQGTAEEDHVDLSLSCTLVPRSGEQAEGSPGGPGDSQGRKRRQTSMTDFYHSKRRLIFSKRKP</sequence>
+                <attributeList>
+                    <attribute name="checksum" nameAc="ID:0000">98D1E7C519ADFCA9</attribute>
+                </attributeList>
+            </molecule>
+            <molecule id="2">
+                <names>
+                    <shortLabel>P24941</shortLabel>
+                    <fullName>Cyclin-dependent kinase 2</fullName>
+                    <alias typeAc="ID:0000" type="display_long">cdk2_human</alias>
+                    <alias typeAc="ID:0000" type="gene name">CDK2</alias>
+                    <alias typeAc="ID:0000" type="gene name synonym">CDKN2</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="ID:0000" id="P24941" refType="identity" refTypeAc="ID:0000"/>
+                    <secondaryRef db="refseq" dbAc="ID:0000" id="NP_001789.2" refType="identity" refTypeAc="ID:0000"/>
+                </xref>
+                <moleculeType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </moleculeType>
+                <organism ncbiTaxId="9606">
+                    <names>
+                        <shortLabel>human</shortLabel>
+                        <fullName>Homo sapiens</fullName>
+                    </names>
+                </organism>
+                <sequence>MENFQKVEKIGEGTYGVVYKARNKLTGEVVALKKIRLDTETEGVPSTAIREISLLKELNHPNIVKLLDVIHTENKLYLVFEFLHQDLKKFMDASALTGIPLPLIKSYLFQLLQGLAFCHSHRVLHRDLKPQNLLINTEGAIKLADFGLARAFGVPVRTYTHEVVTLWYRAPEILLGCKYYSTAVDIWSLGCIFAEMVTRRALFPGDSEIDQLFRIFRTLGTPDEVVWPGVTSMPDYKPSFPKWARQDFSKVVPPLDEDGRSLLSQMLHYDPNKRISAKAALAHPFFQDVTKPVPHLRL</sequence>
+                <attributeList>
+                    <attribute name="checksum" nameAc="ID:0000">F90A0F4E70910B51</attribute>
+                </attributeList>
+            </molecule>
+        </moleculeList>
+        <experimentalConstructList>
+            <experimentalConstruct id="3">
+                <names>
+                    <shortLabel>15N-labeled p21-A</shortLabel>
+                    <fullName>15N-labeled p21 aa 1-94</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="1"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="94"/>
+                </experimentalConstructRange>
+                <sequence>MSEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRR</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>mass spectrometry evidence</shortLabel>
+                            <fullName>mass spectrometry evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001096" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>HPLC evidence</shortLabel>
+                            <fullName>high-performance liquid chromatography evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001052" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>protein sequencing assay evidence</shortLabel>
+                            <fullName>protein sequencing assay evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001287" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="4">
+                        <featureType>
+                            <names>
+                                <shortLabel>15n label</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+            </experimentalConstruct>
+            <experimentalConstruct id="5">
+                <names>
+                    <shortLabel>15N-labeled p21-B</shortLabel>
+                    <fullName>15N-labeled p21 aa 9-84</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="9"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="84"/>
+                </experimentalConstructRange>
+                <sequence>RQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRR</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>mass spectrometry evidence</shortLabel>
+                            <fullName>mass spectrometry evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001096" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>HPLC evidence</shortLabel>
+                            <fullName>high-performance liquid chromatography evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001052" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>protein sequencing assay evidence</shortLabel>
+                            <fullName>protein sequencing assay evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001287" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="6">
+                        <featureType>
+                            <names>
+                                <shortLabel>15n label</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+            </experimentalConstruct>
+            <experimentalConstruct id="9">
+                <names>
+                    <shortLabel>cdk2</shortLabel>
+                    <fullName>cdk2</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>undetermined</shortLabel>
+                            <fullName>undetermined sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <endStatus>
+                        <names>
+                            <shortLabel>undetermined</shortLabel>
+                            <fullName>undetermined sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                </experimentalConstructRange>
+                <moleculeRef>2</moleculeRef>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+            </experimentalConstruct>
+            <experimentalConstruct id="23">
+                <names>
+                    <shortLabel>p21-F</shortLabel>
+                    <fullName>full-length p21</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="1"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="164"/>
+                </experimentalConstructRange>
+                <sequence>MAEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRRPGTSPALLQGTAEEDHVDLSLSCTLVPRSGEQAEGSPGGPGDSQGRKRRQTSMTDFYHSKRRLIFSKRKP</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>mass spectrometry evidence</shortLabel>
+                            <fullName>mass spectrometry evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001096" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>HPLC evidence</shortLabel>
+                            <fullName>high-performance liquid chromatography evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001052" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>protein sequencing assay evidence</shortLabel>
+                            <fullName>protein sequencing assay evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001287" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="24">
+                        <featureType>
+                            <names>
+                                <shortLabel>his tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                    <feature id="25">
+                        <names>
+                            <shortLabel>S2A</shortLabel>
+                            <fullName>serine 2 to alanine</fullName>
+                        </names>
+                        <featureType>
+                            <names>
+                                <shortLabel>mutation</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>certain</shortLabel>
+                                        <fullName>certain sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <begin position="2"/>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>certain</shortLabel>
+                                        <fullName>certain sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                                <end position="2"/>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">
+                        Due to its limited solubility (less than 10 microM), 2d nmr spectra could not be obtained for the p21-F construct 
+                    </attribute>
+                </attributeList>
+            </experimentalConstruct>
+            <experimentalConstruct id="26">
+                <names>
+                    <shortLabel>p21-A</shortLabel>
+                    <fullName>p21 aa 1-94</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="1"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="94"/>
+                </experimentalConstructRange>
+                <sequence>MSEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRR</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>mass spectrometry evidence</shortLabel>
+                            <fullName>mass spectrometry evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001096" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>HPLC evidence</shortLabel>
+                            <fullName>high-performance liquid chromatography evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001052" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>protein sequencing assay evidence</shortLabel>
+                            <fullName>protein sequencing assay evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001287" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="28">
+                        <featureType>
+                            <names>
+                                <shortLabel>his tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+            </experimentalConstruct>
+            <experimentalConstruct id="27">
+                <names>
+                    <shortLabel>p21-B</shortLabel>
+                    <fullName>p21 aa 9-84</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="9"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="84"/>
+                </experimentalConstructRange>
+                <sequence>RQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRR</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>mass spectrometry evidence</shortLabel>
+                            <fullName>mass spectrometry evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001096" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>HPLC evidence</shortLabel>
+                            <fullName>high-performance liquid chromatography evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001052" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>protein sequencing assay evidence</shortLabel>
+                            <fullName>protein sequencing assay evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001287" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="29">
+                        <featureType>
+                            <names>
+                                <shortLabel>his tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+            </experimentalConstruct>
+        </experimentalConstructList>
+        <experimentalSampleList>
+            <experimentalSample id="7">
+                <names>
+                    <shortLabel>15N p21-A native</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>3</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>300</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-2H11</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaSCN</shortLabel>
+                        <fullName>sodium thiocyanate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:30952" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>330</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>200</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT-2H10</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>2H2O</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>% (vol/vol)</shortLabel>
+                        </names>
+                    </unit>
+                    <value>5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaN3</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>% (vol/vol)</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.02</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="8">
+                <names>
+                    <shortLabel>15N p21-A denatured</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>3</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>millimolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>1.0</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-2H11</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaSCN</shortLabel>
+                        <fullName>sodium thiocyanate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:30952" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>330</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>200</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT-2H10</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>2H2O</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>% (vol/vol)</shortLabel>
+                        </names>
+                    </unit>
+                    <value>5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaN3</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>% (vol/vol)</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.02</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>urea</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:16199" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>molar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>6.0</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="10">
+                <names>
+                    <shortLabel>15N p21-B free</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>5</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>200</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>acetate-2H3</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT-2H10</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>2H2O</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>% (vol/vol)</shortLabel>
+                        </names>
+                    </unit>
+                    <value>5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaN3</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>% (vol/vol)</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.02</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="11">
+                <names>
+                    <shortLabel>15N p21-B cdk2-bound</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>5</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>100</value>
+                    </sampleEntity>
+                    <sampleEntity>
+                    <experimentalConstructRef>9</experimentalConstructRef>
+                    <unit>
+                        <names>
+                            <shortLabel>micromolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>100</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>50</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>acetate-2H3</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT-2H10</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>2H2O</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>% (vol/vol)</shortLabel>
+                        </names>
+                    </unit>
+                    <value>5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaN3</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>% (vol/vol)</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.02</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="30">
+                <names>
+                    <shortLabel>p21-F trypsin 0M urea</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>23</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>microgram</shortLabel>
+                            </names>
+                        </unit>
+                        <value>10</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-HCl</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>50</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>molar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>EDTA</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>1</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>trypsin</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>nanogram</shortLabel>
+                        </names>
+                    </unit>
+                    <value>4</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="31">
+                <names>
+                    <shortLabel>p21-F trypsin 2M urea</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>23</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>microgram</shortLabel>
+                            </names>
+                        </unit>
+                        <value>10</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-HCl</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>50</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>molar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>EDTA</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>1</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>trypsin</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>nanogram</shortLabel>
+                        </names>
+                    </unit>
+                    <value>4</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>urea</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:16199" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>molar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>2.0</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="32">
+                <names>
+                    <shortLabel>p21-F trypsin 4M urea</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>23</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>microgram</shortLabel>
+                            </names>
+                        </unit>
+                        <value>10</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-HCl</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>50</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>molar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>EDTA</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>1</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>trypsin</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>nanogram</shortLabel>
+                        </names>
+                    </unit>
+                    <value>4</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>urea</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:16199" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>molar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>4.0</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="33">
+                <names>
+                    <shortLabel>p21-A trypsin</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>26</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>microgram</shortLabel>
+                            </names>
+                        </unit>
+                        <value>10</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-HCl</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>50</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>molar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>EDTA</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>1</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>trypsin</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>nanogram</shortLabel>
+                        </names>
+                    </unit>
+                    <value>4</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="34">
+                <names>
+                    <shortLabel>p21-B trypsin</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>27</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>microgram</shortLabel>
+                            </names>
+                        </unit>
+                        <value>10</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-HCl</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>50</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>molar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>EDTA</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>1</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>trypsin</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>nanogram</shortLabel>
+                        </names>
+                    </unit>
+                    <value>4</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="46">
+                <names>
+                    <shortLabel>p21-F CD</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>23</experimentalConstructRef>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-HCl</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>1</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>500</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>EDTA</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.5</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="47">
+                <names>
+                    <shortLabel>p21-A CD</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>26</experimentalConstructRef>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Tris-HCl</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>1</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>500</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>DTT</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>5</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>EDTA</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>0.5</value>
+                </sampleComponent>
+            </experimentalSample>
+        </experimentalSampleList>
+        <experimentalConditionSetList>
+            <experimentalConditionSet id="12">
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>temperature</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>degree celsius</shortLabel>
+                        </names>
+                    </unit>
+                    <value>27</value>
+                </experimentalCondition>
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>pH</shortLabel>
+                    </names>
+                    <value>6.9</value>
+                </experimentalCondition>
+            </experimentalConditionSet>
+            <experimentalConditionSet id="13">
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>temperature</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>degree celsius</shortLabel>
+                        </names>
+                    </unit>
+                    <value>27</value>
+                </experimentalCondition>
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>pH</shortLabel>
+                    </names>
+                    <value>7.15</value>
+                </experimentalCondition>
+            </experimentalConditionSet>
+            <experimentalConditionSet id="14">
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>temperature</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>degree celsius</shortLabel>
+                        </names>
+                    </unit>
+                    <value>27</value>
+                </experimentalCondition>
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>pH</shortLabel>
+                    </names>
+                    <value>5.0</value>
+                </experimentalCondition>
+            </experimentalConditionSet>
+            <experimentalConditionSet id="35">
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>temperature</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>degree celsius</shortLabel>
+                        </names>
+                    </unit>
+                    <value>22</value>
+                </experimentalCondition>
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>pH</shortLabel>
+                    </names>
+                    <value>8.0</value>
+                </experimentalCondition>
+            </experimentalConditionSet>
+            <experimentalConditionSet id="48">
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>temperature</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>degree celsius</shortLabel>
+                        </names>
+                    </unit>
+                    <value>5</value>
+                </experimentalCondition>
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>pH</shortLabel>
+                    </names>
+                    <value>7.0</value>
+                </experimentalCondition>
+            </experimentalConditionSet>
+            <experimentalConditionSet id="49">
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>temperature</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>degree celsius</shortLabel>
+                        </names>
+                    </unit>
+                    <value>90</value>
+                </experimentalCondition>
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>pH</shortLabel>
+                    </names>
+                    <value>7.0</value>
+                </experimentalCondition>
+            </experimentalConditionSet>
+        </experimentalConditionSetList>
+        <experimentList>
+            <experimentDescription id="15">
+                <names>
+                    <shortLabel>kriwacki-1</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>HSQC</shortLabel>
+                        <fullName>heteronuclear single quantum coherence spectroscopy evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001813" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>predetermined</shortLabel>
+                            <fullName>predetermined molecule</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>7</experimentalSampleRef>
+                <experimentalConditionSetRef>12</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="16">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r006" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>3</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="94"/>
+                        </structureStateRegionRange>
+                        <sequence>MSEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRR</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">
+                        Due to its limited solubility (less than 10 microM), 2d nmr spectra could not be obtained for the p21-F construct 
+                    </attribute>
+                </attributeList>
+            </experimentDescription>
+            <experimentDescription id="17">
+                <names>
+                    <shortLabel>kriwacki-2</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>HSQC</shortLabel>
+                        <fullName>heteronuclear single quantum coherence spectroscopy evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001813" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>predetermined</shortLabel>
+                            <fullName>predetermined molecule</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>8</experimentalSampleRef>
+                <experimentalConditionSetRef>13</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="18">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r006" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>3</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="94"/>
+                        </structureStateRegionRange>
+                        <sequence>MSEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRR</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">
+                        Due to its limited solubility (less than 10 microM), 2d nmr spectra could not be obtained for the p21-F construct 
+                    </attribute>
+                </attributeList>
+            </experimentDescription>
+            <experimentDescription id="19">
+                <names>
+                    <shortLabel>kriwacki-3</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>HSQC</shortLabel>
+                        <fullName>heteronuclear single quantum coherence spectroscopy evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001813" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>predetermined</shortLabel>
+                            <fullName>predetermined molecule</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>10</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="20">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r007" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>5</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="9"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="84"/>
+                        </structureStateRegionRange>
+                        <sequence>RQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRR</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">
+                        Due to its limited solubility (less than 10 microM), 2d nmr spectra could not be obtained for the p21-F construct 
+                    </attribute>
+                </attributeList>
+            </experimentDescription>
+            <experimentDescription id="21">
+                <names>
+                    <shortLabel>kriwacki-4</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>HSQC</shortLabel>
+                        <fullName>heteronuclear single quantum coherence spectroscopy evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001813" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>predetermined</shortLabel>
+                            <fullName>predetermined molecule</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>11</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="22">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>order</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00079" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>5</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="9"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="84"/>
+                        </structureStateRegionRange>
+                        <sequence>RQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRR</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">
+                        Due to its limited solubility (less than 10 microM), 2d nmr spectra could not be obtained for the p21-F construct 
+                    </attribute>
+                </attributeList>
+            </experimentDescription>
+            <experimentDescription id="36">
+                <names>
+                    <shortLabel>kriwacki-5</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>sensitivity to proteolysis</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00085" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>MALDI-TOF MS</shortLabel>
+                            <fullName>matrix-assisted laser desorption/ionization time-of-flight mass spectrometry evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0005526" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>HPLC evidence</shortLabel>
+                            <fullName>high-performance liquid chromatography evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001052" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>30</experimentalSampleRef>
+                <experimentalConditionSetRef>35</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="37">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r002" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>23</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="164"/>
+                        </structureStateRegionRange>
+                        <sequence>MAEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRRPGTSPALLQGTAEEDHVDLSLSCTLVPRSGEQAEGSPGGPGDSQGRKRRQTSMTDFYHSKRRLIFSKRKP</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="38">
+                <names>
+                    <shortLabel>kriwacki-6</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>sensitivity to proteolysis</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00085" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>HPLC evidence</shortLabel>
+                            <fullName>high-performance liquid chromatography evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001052" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>31</experimentalSampleRef>
+                <experimentalConditionSetRef>35</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="39">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r002" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>23</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="164"/>
+                        </structureStateRegionRange>
+                        <sequence>MAEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRRPGTSPALLQGTAEEDHVDLSLSCTLVPRSGEQAEGSPGGPGDSQGRKRRQTSMTDFYHSKRRLIFSKRKP</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="40">
+                <names>
+                    <shortLabel>kriwacki-7</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>sensitivity to proteolysis</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00085" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>HPLC evidence</shortLabel>
+                            <fullName>high-performance liquid chromatography evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001052" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>32</experimentalSampleRef>
+                <experimentalConditionSetRef>35</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="41">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r002" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>23</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="164"/>
+                        </structureStateRegionRange>
+                        <sequence>MAEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRRPGTSPALLQGTAEEDHVDLSLSCTLVPRSGEQAEGSPGGPGDSQGRKRRQTSMTDFYHSKRRLIFSKRKP</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="42">
+                <names>
+                    <shortLabel>kriwacki-8</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>sensitivity to proteolysis</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00085" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>MALDI-TOF MS</shortLabel>
+                            <fullName>matrix-assisted laser desorption/ionization time-of-flight mass spectrometry evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0005526" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>33</experimentalSampleRef>
+                <experimentalConditionSetRef>35</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="43">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r003" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>26</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="94"/>
+                        </structureStateRegionRange>
+                        <sequence>MSEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRR</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="44">
+                <names>
+                    <shortLabel>kriwacki-9</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>sensitivity to proteolysis</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00085" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>MALDI-TOF MS</shortLabel>
+                            <fullName>matrix-assisted laser desorption/ionization time-of-flight mass spectrometry evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0005526" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>34</experimentalSampleRef>
+                <experimentalConditionSetRef>35</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="45">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r004" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>27</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="9"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="84"/>
+                        </structureStateRegionRange>
+                        <sequence>RQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRR</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="50">
+                <names>
+                    <shortLabel>kriwacki-10</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>circular dichroism</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00095" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>predetermined</shortLabel>
+                            <fullName>predetermined molecule</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>46</experimentalSampleRef>
+                <experimentalConditionSetRef>48</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="51">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00016r005" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>23</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="164"/>
+                        </structureStateRegionRange>
+                        <sequence>MAEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRRPGTSPALLQGTAEEDHVDLSLSCTLVPRSGEQAEGSPGGPGDSQGRKRRQTSMTDFYHSKRRLIFSKRKP</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="52">
+                <names>
+                    <shortLabel>kriwacki-11</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>circular dichroism</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00095" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>predetermined</shortLabel>
+                            <fullName>predetermined molecule</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>47</experimentalSampleRef>
+                <experimentalConditionSetRef>48</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="53">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>26</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="94"/>
+                        </structureStateRegionRange>
+                        <sequence>MSEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRR</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="54">
+                <names>
+                    <shortLabel>kriwacki-12</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="8876165" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Kriwacki et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">wright@scripps.edu</attribute>
+                        <attribute name="journal" nameAc="ID:0000">PNAS</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">1996</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>circular dichroism</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00095" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>predetermined</shortLabel>
+                            <fullName>predetermined molecule</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalSampleRef>47</experimentalSampleRef>
+                <experimentalConditionSetRef>49</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="55">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>26</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="1"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="94"/>
+                        </structureStateRegionRange>
+                        <sequence>MSEPAGDVRQNPCGSKACRRLFGPVDSEQLSRDCDALMAGCIQEARERWNFDFVTETPLEGDFAWERVRGLGLPKLYLPTGPRRGRDELGGGRR</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+        </experimentList>
+    </entry>
+</entrySet>
