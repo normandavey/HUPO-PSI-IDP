@@ -6,7 +6,6 @@ This record is incomplete and was not started until several years into the proje
 
 ### Minutes
 
-
 --------------
 
 #### 26th January 2021
@@ -30,6 +29,54 @@ This record is incomplete and was not started until several years into the proje
 - Add Sample to the XML 
 - Define Sample use cases and find issues
 - Continue work on community announcment paper
+
+--------------
+
+#### 2nd February 2021
+##### Attendees
+- Norman Davey
+- Kim Van Roey
+- Balint Meszaros
+- Nico Palopoli
+
+##### Discussion points
+- Constructs/,olecules and how to define them
+
+--------------
+
+#### 4th February 2021
+##### Attendees
+- Norman Davey
+- Kim Van Roey
+- Balint Meszaros
+- Nico Palopoli
+
+##### Discussion points
+- MIADE
+
+##### Discussion Notes
+- How to introduce divergence from the expected for the sequence and experiment annotation
+
+--------------
+
+#### 9th February 2021
+##### Attendees
+- Norman Davey
+- Kim Van Roey
+- Balint Meszaros
+- Nico Palopoli
+- Federica Quaglia
+
+##### Discussion points
+- Recap of the goals for Federica
+- Continuation of how constructs should be defined 
+- Incompatibilities between standard and DisProt
+- Discussion of a experiment or region-centric standard
+
+##### Discussion Notes
+- Top down or bottom up construct definition
+- *Top down* is define basic unit of interest and add features to define construct
+- *Bottom up* is define construct - introduces the assumption that what is store is the real experimental construct
 
 --------------
 
