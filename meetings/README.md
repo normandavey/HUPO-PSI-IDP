@@ -80,6 +80,18 @@ This record is incomplete and was not started until several years into the proje
 
 --------------
 
+#### 16th February 2021
+##### Attendees
+- Norman Davey
+- Kim Van Roey
+- Balint Meszaros
+- Nico Palopoli
+- Federica Quaglia
+
+##### Discussion points
+- Protein-centric vs Paper-centric vs allow both
+- Preperation for the ELIXIR meeting
+
 ### Template
 #### DATE
 ##### Attendees
