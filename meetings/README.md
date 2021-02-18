@@ -92,6 +92,22 @@ This record is incomplete and was not started until several years into the proje
 - Protein-centric vs Paper-centric vs allow both
 - Preperation for the ELIXIR meeting
 
+--------------
+
+#### 18th February 2021
+##### Attendees
+- Norman Davey
+- Kim Van Roey
+- Balint Meszaros
+- Nico Palopoli
+- Federica Quaglia
+
+##### Discussion points
+- Add ambiguity to both region and experimental method definition
+- Adding a checklist on divergence of established contruct/method that must be described to interpret the experimental results
+- Adding examples of good/bad MIADE-compliant data
+
+
 ### Template
 #### DATE
 ##### Attendees
