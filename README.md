@@ -1,6 +1,11 @@
 # HUPO-PSI-IDP
 ## Formats and standards for the HUPO-PSI intrinsically disordered proteins community
 
+### Community input:
+Document for community input on XML schema [here](https://docs.google.com/document/d/1rfB3FiM6vSIGw3bQtQZdZeVhF-_fvTXMOu8UqdNfXdY/edit?usp=sharing)
+
+Document for community input on MIADE guideline [here](https://docs.google.com/document/d/16M_s-bxwWpe2CqN1fPoZJpy_ts1eg0IJB3rf7k7DWl8/edit?usp=sharing)
+
 ### The goals of the community are:
 The PSI-ID working group is composed of academic, government, and industry researchers, software developers and database curators and managers. The main goals of the PSI-ID working group are to:
 * define the community PSI-ID XML exchange format and associated controlled vocabularies to permit the dissemination and storage of data relating to IDR structure and function.
