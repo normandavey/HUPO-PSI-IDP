@@ -1,7 +1,8 @@
 # HUPO-PSI-IDP
 ## Formats and standards for the HUPO-PSI intrinsically disordered proteins community
 
-### Community input:
+
+### We're looking for community input:
 Document for community input on XML schema [here](https://docs.google.com/document/d/1rfB3FiM6vSIGw3bQtQZdZeVhF-_fvTXMOu8UqdNfXdY/edit?usp=sharing)
 
 Document for community input on MIADE guideline [here](https://docs.google.com/document/d/16M_s-bxwWpe2CqN1fPoZJpy_ts1eg0IJB3rf7k7DWl8/edit?usp=sharing)
@@ -17,6 +18,9 @@ Current projects of the PSI-ID working group are:
 * definition and development of the MIADE guidelines.
 * definition and development of the PSI-ID XML format and the PSI-ID TAB format, working together with the PSI-MI workgroup.
 * development of the PSI-ID controlled vocabulary.
+
+### Slides
+ELIXIR IDP community slides [here](https://docs.google.com/presentation/d/1VniSns2tD1f-rjF2grMKGqHPTWRYkECjLZ0KSJctQO0/edit?usp=sharing)
 
 ### Milestones:
 **Milestone 1** Submission of a manuscript to a journal in the field to announce the PSI-ID WG
