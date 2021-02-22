@@ -19,7 +19,7 @@ Current projects of the PSI-ID working group are:
 * definition and development of the PSI-ID XML format and the PSI-ID TAB format, working together with the PSI-MI workgroup.
 * development of the PSI-ID controlled vocabulary.
 
-### Slides
+### The slides on current plans/progress:
 ELIXIR IDP community slides [here](https://docs.google.com/presentation/d/1VniSns2tD1f-rjF2grMKGqHPTWRYkECjLZ0KSJctQO0/edit?usp=sharing)
 
 ### Milestones:
