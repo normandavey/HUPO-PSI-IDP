@@ -3,6 +3,8 @@
 
 This record is incomplete and was not started until several years into the project.
 
+If you wish to be put on the list for the meetings email Norman (norman.davey(at)icr.ac.uk)
+
 
 ### Minutes
 
