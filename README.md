@@ -1,4 +1,4 @@
-# HUPO-PSI-ID
+# HUPO-PSI-IDP
 ## Formats and standards for the HUPO-PSI intrinsically disordered proteins community
 
 ### The goals of the community are:
