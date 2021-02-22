@@ -1,7 +1,7 @@
 # HUPO-PSI-IDP
 ## Formats and standards for the HUPO-PSI intrinsically disordered proteins community
 
-#### Community input:
+### Community input:
 Document for community input on XML schema [here] (https://docs.google.com/document/d/1rfB3FiM6vSIGw3bQtQZdZeVhF-_fvTXMOu8UqdNfXdY/edit?usp=sharing)
 
 ### The goals of the community are:
