@@ -48,7 +48,8 @@ Draft document of the MIADE guidelines [here](https://docs.google.com/document/d
 
 #### HUPO-PSI-ID XML format:
 An XSD of HUPO-PSI-ID XML format is available [here](./formats/xml/draft_v4/PSI-ID_schema-v4.xsd)
-An example of the HUPO-PSI-ID v3 XML format holding a IDR annotation is available [here](./formats/xml/draft_v3/instance-v3-pmid_8876165.xml)
+
+An example of the HUPO-PSI-ID v4 XML format holding a IDR annotation is available [here](./formats/xml/draft_v4/instance-v4-pmid_27515574.xml)
 
 #### HUPO-PSI-ID TAB format:
 An annotated example of the HUPO-PSI-ID TAB format is available [here](./formats/tab/draft_v2/HUPO-PSI-IDP_TAB_format.xlsx)
