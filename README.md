@@ -8,28 +8,28 @@ Document for community input on XML schema [here](https://docs.google.com/docume
 Document for community input on MIADE guideline [here](https://docs.google.com/document/d/16M_s-bxwWpe2CqN1fPoZJpy_ts1eg0IJB3rf7k7DWl8/edit?usp=sharing)
 
 ### The goals of the community are:
-The PSI-ID working group is composed of academic, government, and industry researchers, software developers and database curators and managers. The main goals of the PSI-ID working group are to:
-* define the community PSI-ID XML exchange format and associated controlled vocabularies to permit the dissemination and storage of data relating to IDR structure and function.
+The PSI-IDP working group is composed of academic, government, and industry researchers, software developers and database curators and managers. The main goals of the PSI-IDP working group are to:
+* define the community PSI-IDP XML exchange format and associated controlled vocabularies to permit the dissemination and storage of data relating to IDR structure and function.
 * define the Minimum Information About Disorder Experiments (MIADE) guidelines to standardise the description of intrinsically disordered protein (IDP) experiments.
 * support the integration of the developed standards, exchange formats and controlled vocabularies into IDP tools and resources.
 * define the rules and guidelines for the curation of IDP literature and the annotation of IDP data.
 
-Current projects of the PSI-ID working group are:
+Current projects of the PSI-IDP working group are:
 * definition and development of the MIADE guidelines.
-* definition and development of the PSI-ID XML format and the PSI-ID TAB format, working together with the PSI-MI workgroup.
-* development of the PSI-ID controlled vocabulary.
+* definition and development of the PSI-ID XML format and the PSI-IDP TAB format, working together with the PSI-MI workgroup.
+* development of the PSI-IDP controlled vocabulary.
 
 ### The slides on current plans/progress:
 ELIXIR IDP community slides [here](https://docs.google.com/presentation/d/1VniSns2tD1f-rjF2grMKGqHPTWRYkECjLZ0KSJctQO0/edit?usp=sharing)
 
 ### Milestones:
-**Milestone 1** Submission of a manuscript to a journal in the field to announce the PSI-ID WG
+**Milestone 1** Submission of a manuscript to a journal in the field to announce the PSI-IDP WG
 
 **Goal 1:** Completion of the MIADE standard defining the minimal fundamental parameters to describe a structural disorder experiment, based on simple use cases
 
-**Goal 2:** Completion of the 1.0 version of the PSI-ID TAB format to represent, in a simple but unambiguous manner, an entry adhering to the MIADE guidelines for the description of the structural state of a protein region
+**Goal 2:** Completion of the 1.0 version of the PSI-IDP TAB format to represent, in a simple but unambiguous manner, an entry adhering to the MIADE guidelines for the description of the structural state of a protein region
 
-**Goal 3:** Completion of the 1.0 version of the PSI-ID XML format to allow the experimental setup and results of an analysis of the structure state of a protein region to be unequivocally represented
+**Goal 3:** Completion of the 1.0 version of the PSI-IDP XML format to allow the experimental setup and results of an analysis of the structure state of a protein region to be unequivocally represented
 
 **Milestone 2:** Setting up the WG website/GitHub page to serve as a platform for dissemination of developed formats and standards
 
@@ -47,15 +47,15 @@ Report on ELIXIR funded project to define preliminary draft of the standards and
 Draft document of the MIADE guidelines [here](https://docs.google.com/document/d/1SK7UvZrpg6KQkkXpcN90Pipqhyc_DdoUNHTWxnX0H-M/edit?ts=60016618).
 
 #### HUPO-PSI-ID XML format:
-An XSD of HUPO-PSI-ID XML format is available [here](./formats/xml/draft_v4/PSI-ID_schema-v4.xsd)
+An XSD of HUPO-PSI-IDP XML format is available [here](./formats/xml/draft_v4/PSI-ID_schema-v4.xsd)
 
-An example of the HUPO-PSI-ID v4 XML format holding a IDR annotation is available [here](./formats/xml/draft_v4/instance-v4-pmid_27515574.xml)
+An example of the HUPO-PSI-IDP v4 XML format holding a IDR annotation is available [here](./formats/xml/draft_v4/instance-v4-pmid_27515574.xml)
 
 #### HUPO-PSI-ID TAB format:
-An annotated example of the HUPO-PSI-ID TAB format is available [here](./formats/tab/draft_v2/HUPO-PSI-IDP_TAB_format.xlsx)
+An annotated example of the HUPO-PSI-IDP TAB format is available [here](./formats/tab/draft_v2/HUPO-PSI-IDP_TAB_format.xlsx)
 
 ### Administrative:
-**Group Name:** HUPO PSI Intrinsic Disorder Working Group (PSI-ID WG)
+**Group Name:** HUPO PSI Intrinsic Disorder Protein Working Group (PSI-IDP WG)
 
 **Chair (with affiliation and current email address):** Norman Davey - The Institute of Cancer Research, London, UK 
 
