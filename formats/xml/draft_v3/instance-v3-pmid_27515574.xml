@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entrySet xmlns="http://psi.hupo.org/id/idf100"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://psi.hupo.org/id/idf100 file:/Users/roey/Desktop/IDP/PSI-ID-XML_schema/version-3/PSI-ID_schema-v3.xsd" level="1" version="0" minorVersion="0">
+    <entry>
+        <moleculeList>
+            <molecule id="1">
+                <names>
+                    <shortLabel>P08047</shortLabel>
+                    <fullName>Transcription factor Sp1</fullName>
+                    <alias typeAc="ID:0000" type="display_long">SP1_human</alias>
+                    <alias typeAc="ID:0000" type="display_short">SP1</alias>
+                    <alias typeAc="ID:0000" type="gene name">SP1</alias>
+                    <alias typeAc="ID:0000" type="gene name synonym">TSFP1</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="ID:0000" id="P08047-1.3" refType="identity" refTypeAc="ID:0000"/>
+                    <secondaryRef db="refseq" dbAc="ID:0000" id="NP_612482.2" refType="identity" refTypeAc="ID:0000"/>
+                </xref>
+                <moleculeType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </moleculeType>
+                <organism ncbiTaxId="9606">
+                    <names>
+                        <shortLabel>human</shortLabel>
+                        <fullName>Homo sapiens</fullName>
+                    </names>
+                </organism>
+                <sequence>MSDQDHSMDEMTAVVKIEKGVGGNNGGNGNGGGAFSQARSSSTGSSSSTGGGGQESQPSPLALLAATCSRIESPNENSNNSQGPSQSGGTGELDLTATQLSQGANGWQIISSSSGATPTSKEQSGSSTNGSNGSESSKNRTVSGGQYVVAAAPNLQNQQVLTGLPGVMPNIQYQVIPQFQTVDGQQLQFAATGAQVQQDGSGQIQIIPGANQQIITNRGSGGNIIAAMPNLLQQAVPLQGLANNVLSGQTQYVTNVPVALNGNITLLPVNSVSAATLTPSSQAVTISSSGSQESGSQPVTSGTTISSASLVSSQASSSSFFTNANSYSTTTTTSNMGIMNFTTSGSSGTNSQGQTPQRVSGLQGSDALNIQQNQTSGGSLQAGQQKEGEQNQQTQQQQILIQPQLVQGGQALQALQAAPLSGQTFTTQAISQETLQNLQLQAVPNSGPIIIRTPTVGPNGQVSWQTLQLQNLQVQNPQAQTITLAPMQGVSLGQTSSSNTTLTPIASAASIPAGTVTVNAAQLSSMPGLQTINLSALGTSGIQVHPIQGLPLAIANAPGDHGAQLGLHGAGGDGIHDDTAGGEEGENSPDAQPQAGRRTRREACTCPYCKDSEGRGSGDPGKKKQHICHIQGCGKVYGKTSHLRAHLRWHTGERPFMCTWSYCGKRFTRSDELQRHKRTHTGEKKFACPECPKRFMRSDHLSKHIKTHQNKKGGPGVALSVGTLPLDSGAGSEGSGTATPSALITTNMVAMEAICPEGIARLANSGINVMQVADLQSINISGNGF</sequence>
+            </molecule>
+            <molecule id="2">
+                <names>
+                    <shortLabel>O00268</shortLabel>
+                    <fullName>Transcription initiation factor TFIID subunit 4</fullName>
+                    <alias typeAc="ID:0000" type="display_long">taf4_human</alias>
+                    <alias typeAc="ID:0000" type="display_short">TAF4</alias>
+                    <alias typeAc="ID:0000" type="gene name">TAF4</alias>
+                    <alias typeAc="ID:0000" type="gene name synonym">TAFII130</alias>
+                </names>
+                <xref>
+                    <primaryRef db="uniprotkb" dbAc="ID:0000" id="O00268" refType="identity" refTypeAc="ID:0000"/>
+                    <secondaryRef db="refseq" dbAc="ID:0000" id="NP_003176.2" refType="identity" refTypeAc="ID:0000"/>
+                </xref>
+                <moleculeType>
+                    <names>
+                        <shortLabel>protein</shortLabel>
+                    </names>
+                    <xref>
+                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </moleculeType>
+                <organism ncbiTaxId="9606">
+                    <names>
+                        <shortLabel>human</shortLabel>
+                        <fullName>Homo sapiens</fullName>
+                    </names>
+                </organism>
+                <sequence>MAAGSDLLDEVFFNSEVDEKVVSDLVGSLESQLAASAAHHHHLAPRTPEVRAAAAGALGNHVVSGSPAGAAGAGPAAPAEGAPGAAPEPPPAGRARPGGGGPQRPGPPSPRRPLVPAGPAPPAAKLRPPPEGSAGSCAPVPAAAAVAAGPEPAPAGPAKPAGPAALAARAGPGPGPGPGPGPGPGPGKPAGPGAAQTLNGSAALLNSHHAAAPAVSLVNNGPAALLPLPKPAAPGTVIQTPPFVGAAAPPAPAAPSPPAAPAPAAPAAAPPPPPPAPATLARPPGHPAGPPTAAPAVPPPAAAQNGGSAGAAPAPAPAAGGPAGVSGQPGPGAAAAAPAPGVKAESPKRVVQAAPPAAQTLAASGPASTAASMVIGPTMQGALPSPAAVPPPAPGTPTGLPKGAAGAVTQSLSRTPTATTSGIRATLTPTVLAPRLPQPPQNPTNIQNFQLPPGMVLVRSENGQLLMIPQQALAQMQAQAHAQPQTTMAPRPATPTSAPPVQISTVQAPGTPIIARQVTPTTIIKQVSQAQTTVQPSATLQRSPGVQPQLVLGGAAQTASLGTATAVQTGTPQRTVPGATTTSSAATETMENVKKCKNFLSTLIKLASSGKQSTETAANVKELVQNLLDGKIEAEDFTSRLYRELNSSPQPYLVPFLKRSLPALRQLTPDSAAFIQQSQQQPPPPTSQATTALTAVVLSSSVQRTAGKTAATVTSALQPPVLSLTQPTQVGVGKQGQPTPLVIQQPPKPGALIRPPQVTLTQTPMVALRQPHNRIMLTTPQQIQLNPLQPVPVVKPAVLPGTKALSAVSAQAAAAQKNKLKEPGGGSFRDDDDINDVASMAGVNLSEESARILATNSELVGTLTRSCKDETFLLQAPLQRRILEIGKKHGITELHPDVVSYVSHATQQRLQNLVEKISETAQQKNFSYKDDDRYEQASDVRAQLKFFEQLDQIEKQRKDEQEREILMRAAKSRSRQEDPEQLRLKQKAKEMQQQELAQMRQRDANLTALAAIGPRKKRKVDCPGPGSGAEGSGPGSVVPGSSGVGTPRQFTRQRITRVNLRDLIFCLENERETSHSLLLYKAFLK</sequence>
+            </molecule>
+        </moleculeList>
+        <experimentalConstructList>
+            <experimentalConstruct id="3">
+                <names>
+                    <shortLabel>15N Sp1-QA</shortLabel>
+                    <fullName>15N labeled glutamine-rich domain QA of Sp1</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="153"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="215"/>
+                </experimentalConstructRange>
+                <sequence>PNLQNQQVLTGLPGVMPNIQYQVIPQFQTVDGQQLQFAATGAQVQQDGSGQIQIIPGANQQII</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>gel-filtration evidence</shortLabel>
+                            <fullName>gel-filtration evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001049" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="4">
+                        <featureType>
+                            <names>
+                                <shortLabel>flag tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                    <feature id="5">
+                        <featureType>
+                            <names>
+                                <shortLabel>his tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                    <feature id="6">
+                        <featureType>
+                            <names>
+                                <shortLabel>15n label</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">Originally the Sp1-QA construct contained an N-terminal GST-tag, which was removed enzymatically during purification; however, this left three residual linker amino acids at the N-terminus (GIL).</attribute>
+                </attributeList>  
+            </experimentalConstruct>
+            <experimentalConstruct id="7">
+                <names>
+                    <shortLabel>15N Sp1-QB</shortLabel>
+                    <fullName>15N labeled glutamine-rich domain QB of Sp1</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="349"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="495"/>
+                </experimentalConstructRange>
+                <sequence>TNSQGQTPQRVSGLQGSDALNIQQNQTSGGSLQAGQQKEGEQNQQTQQQQILIQPQLVQGGQALQALQAAPLSGQTFTTQAISQETLQNLQLQAVPNSGPIIIRTPTVGPNGQVSWQTLQLQNLQVQNPQAQTITLAPMQGVSLGQT</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>gel-filtration evidence</shortLabel>
+                            <fullName>gel-filtration evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001049" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="8">
+                        <featureType>
+                            <names>
+                                <shortLabel>flag tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                    <feature id="9">
+                        <featureType>
+                            <names>
+                                <shortLabel>his tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                    <feature id="10">
+                        <featureType>
+                            <names>
+                                <shortLabel>15n label</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">Originally the Sp1-QB construct contained an N-terminal GST-tag, which was removed enzymatically during purification; however, this left three residual linker amino acids at the N-terminus (GIL).</attribute>
+                </attributeList>  
+            </experimentalConstruct>
+            <experimentalConstruct id="11">
+                <names>
+                    <shortLabel>15N TAF4N/C</shortLabel>
+                    <fullName>15N labeled central region of TAF4</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="408"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="838"/>
+                </experimentalConstructRange>
+                <sequence>VTQSLSRTPTATTSGIRATLTPTVLAPRLPQPPQNPTNIQNFQLPPGMVLVRSENGQLLMIPQQALAQMQAQAHAQPQTTMAPRPATPTSAPPVQISTVQAPGTPIIARQVTPTTIIKQVSQAQTTVQPSATLQRSPGVQPQLVLGGAAQTASLGTATAVQTGTPQRTVPGATTTSSAATETMENVKKCKNFLSTLIKLASSGKQSTETAANVKELVQNLLDGKIEAEDFTSRLYRELNSSPQPYLVPFLKRSLPALRQLTPDSAAFIQQSQQQPPPPTSQATTALTAVVLSSSVQRTAGKTAATVTSALQPPVLSLTQPTQVGVGKQGQPTPLVIQQPPKPGALIRPPQVTLTQTPMVALRQPHNRIMLTTPQQIQLNPLQPVPVVKPAVLPGTKALSAVSAQAAAAQKNKLKEPGGGSFRDDDDINDVA</sequence>
+                <moleculeRef>2</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>gel-filtration evidence</shortLabel>
+                            <fullName>gel-filtration evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001049" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="12">
+                        <featureType>
+                            <names>
+                                <shortLabel>15n label</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>undetermined</shortLabel>
+                                        <fullName>undetermined sequence position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+            </experimentalConstruct>
+            <experimentalConstruct id="20">
+                <names>
+                    <shortLabel>TAF4N/C</shortLabel>
+                    <fullName>Central region of TAF4</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="408"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="838"/>
+                </experimentalConstructRange>
+                <sequence>VTQSLSRTPTATTSGIRATLTPTVLAPRLPQPPQNPTNIQNFQLPPGMVLVRSENGQLLMIPQQALAQMQAQAHAQPQTTMAPRPATPTSAPPVQISTVQAPGTPIIARQVTPTTIIKQVSQAQTTVQPSATLQRSPGVQPQLVLGGAAQTASLGTATAVQTGTPQRTVPGATTTSSAATETMENVKKCKNFLSTLIKLASSGKQSTETAANVKELVQNLLDGKIEAEDFTSRLYRELNSSPQPYLVPFLKRSLPALRQLTPDSAAFIQQSQQQPPPPTSQATTALTAVVLSSSVQRTAGKTAATVTSALQPPVLSLTQPTQVGVGKQGQPTPLVIQQPPKPGALIRPPQVTLTQTPMVALRQPHNRIMLTTPQQIQLNPLQPVPVVKPAVLPGTKALSAVSAQAAAAQKNKLKEPGGGSFRDDDDINDVA</sequence>
+                <moleculeRef>2</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>gel-filtration evidence</shortLabel>
+                            <fullName>gel-filtration evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001049" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+            </experimentalConstruct>
+            <experimentalConstruct id="27">
+                <names>
+                    <shortLabel>Sp1-QA</shortLabel>
+                    <fullName>Glutamine-rich domain QA of Sp1</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="153"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="215"/>
+                </experimentalConstructRange>
+                <sequence>PNLQNQQVLTGLPGVMPNIQYQVIPQFQTVDGQQLQFAATGAQVQQDGSGQIQIIPGANQQII</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>gel-filtration evidence</shortLabel>
+                            <fullName>gel-filtration evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001049" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="29">
+                        <featureType>
+                            <names>
+                                <shortLabel>flag tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                    <feature id="30">
+                        <featureType>
+                            <names>
+                                <shortLabel>his tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">Originally the Sp1-QA construct contained an N-terminal GST-tag, which was removed enzymatically during purification; however, this left three residual linker amino acids at the N-terminus (GIL).</attribute>
+                </attributeList>  
+            </experimentalConstruct>
+            <experimentalConstruct id="28">
+                <names>
+                    <shortLabel>Sp1-QB</shortLabel>
+                    <fullName>Glutamine-rich domain QB of Sp1</fullName>
+                </names>
+                <experimentalConstructRange>
+                    <startStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </startStatus>
+                    <begin position="349"/>
+                    <endStatus>
+                        <names>
+                            <shortLabel>certain</shortLabel>
+                            <fullName>certain sequence position</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </endStatus>
+                    <end position="495"/>
+                </experimentalConstructRange>
+                <sequence>TNSQGQTPQRVSGLQGSDALNIQQNQTSGGSLQAGQQKEGEQNQQTQQQQILIQPQLVQGGQALQALQAAPLSGQTFTTQAISQETLQNLQLQAVPNSGPIIIRTPTVGPNGQVSWQTLQLQNLQVQNPQAQTITLAPMQGVSLGQT</sequence>
+                <moleculeRef>1</moleculeRef>
+                <moleculeIdentificationMethodList>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>SDS-PAGE evidence</shortLabel>
+                            <fullName>sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000333" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                    <moleculeIdentificationMethod>
+                        <names>
+                            <shortLabel>gel-filtration evidence</shortLabel>
+                            <fullName>gel-filtration evidence</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001049" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </moleculeIdentificationMethod>
+                </moleculeIdentificationMethodList>
+                <experimentalPreparationList>
+                    <experimentalPreparation>
+                        <names>
+                            <shortLabel>purified</shortLabel>
+                            <fullName>purified</fullName>
+                        </names>
+                        <xref>
+                            <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                    </experimentalPreparation>
+                </experimentalPreparationList>
+                <featureList>
+                    <feature id="31">
+                        <featureType>
+                            <names>
+                                <shortLabel>flag tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                    <feature id="32">
+                        <featureType>
+                            <names>
+                                <shortLabel>his tag</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </featureType>
+                        <featureRangeList>
+                            <featureRange>
+                                <startStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </startStatus>
+                                <endStatus>
+                                    <names>
+                                        <shortLabel>c-terminal</shortLabel>
+                                        <fullName>c-terminal position</fullName>
+                                    </names>
+                                    <xref>
+                                        <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                    </xref>
+                                </endStatus>
+                            </featureRange>
+                        </featureRangeList>
+                    </feature>
+                </featureList>
+                <hostOrganism ncbiTaxId="469008">
+                    <names>
+                        <shortLabel>E. coli BL21(DE3)</shortLabel>
+                        <fullName>Escherichia coli str. BL21(DE3)</fullName>
+                    </names>
+                </hostOrganism>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">Originally the Sp1-QB construct contained an N-terminal GST-tag, which was removed enzymatically during purification; however, this left three residual linker amino acids at the N-terminus (GIL).</attribute>
+                </attributeList>  
+            </experimentalConstruct>
+        </experimentalConstructList>
+        <experimentalSampleList>
+            <experimentalSample id="13">
+                <names>
+                    <shortLabel>15N TAF4N/C NMR</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>11</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>50</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>140</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Na3PO4</shortLabel>
+                        <fullName>sodium phosphate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:37586" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>20</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>D2O</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>%</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="17">
+                <names>
+                    <shortLabel>15N Sp1-QA NMR</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>3</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>50</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>140</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Na3PO4</shortLabel>
+                        <fullName>sodium phosphate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:37586" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>20</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>D2O</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>%</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="22">
+                <names>
+                    <shortLabel>15N Sp1-QA + TAF4N/C NMR</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>3</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>50</value>
+                    </sampleEntity>
+                    <sampleEntity>
+                        <experimentalConstructRef>20</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>150</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>140</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Na3PO4</shortLabel>
+                        <fullName>sodium phosphate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:37586" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>20</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>D2O</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>%</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="25">
+                <names>
+                    <shortLabel>15N Sp1-QB NMR</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>7</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>50</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>140</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Na3PO4</shortLabel>
+                        <fullName>sodium phosphate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:37586" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>20</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>D2O</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>%</shortLabel>
+                        </names>
+                    </unit>
+                    <value>10</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="33">
+                <names>
+                    <shortLabel>Sp1-QB CD</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>28</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>50</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>140</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Na3PO4</shortLabel>
+                        <fullName>sodium phosphate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:37586" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>20</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="34">
+                <names>
+                    <shortLabel>TAF4N/C CD</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>20</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>50</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>140</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Na3PO4</shortLabel>
+                        <fullName>sodium phosphate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:37586" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>20</value>
+                </sampleComponent>
+            </experimentalSample>
+            <experimentalSample id="35">
+                <names>
+                    <shortLabel>Sp1-QB + TAF4N/C CD</shortLabel>
+                </names>
+                <sampleEntityList>
+                    <sampleEntity>
+                        <experimentalConstructRef>28</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>50</value>
+                    </sampleEntity>
+                    <sampleEntity>
+                        <experimentalConstructRef>20</experimentalConstructRef>
+                        <unit>
+                            <names>
+                                <shortLabel>micromolar</shortLabel>
+                            </names>
+                        </unit>
+                        <value>50</value>
+                    </sampleEntity>
+                </sampleEntityList>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>NaCl</shortLabel>
+                        <fullName>sodium chloride</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:26710" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>140</value>
+                </sampleComponent>
+                <sampleComponent>
+                    <names>
+                        <shortLabel>Na3PO4</shortLabel>
+                        <fullName>sodium phosphate</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="chebi" dbAc="ID:0000" id="CHEBI:37586" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                    <unit>
+                        <names>
+                            <shortLabel>millimolar</shortLabel>
+                        </names>
+                    </unit>
+                    <value>20</value>
+                </sampleComponent>
+            </experimentalSample>
+        </experimentalSampleList>
+        <experimentalConditionSetList>
+            <experimentalConditionSet id="14">
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>temperature</shortLabel>
+                    </names>
+                    <unit>
+                        <names>
+                            <shortLabel>degree celsius</shortLabel>
+                        </names>
+                    </unit>
+                    <value>4</value>
+                </experimentalCondition>
+                <experimentalCondition>
+                    <names>
+                        <shortLabel>pH</shortLabel>
+                    </names>
+                    <value>7.3</value>
+                </experimentalCondition>
+            </experimentalConditionSet>
+        </experimentalConditionSetList>
+        <experimentList>
+            <experimentDescription id="15">
+                <names>
+                    <shortLabel>hibino-1</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>HSQC</shortLabel>
+                        <fullName>heteronuclear single quantum coherence spectroscopy evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001813" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <experimentalSampleRef>13</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="16">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP01170r003" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>11</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="408"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="838"/>
+                        </structureStateRegionRange>
+                        <sequence>VTQSLSRTPTATTSGIRATLTPTVLAPRLPQPPQNPTNIQNFQLPPGMVLVRSENGQLLMIPQQALAQMQAQAHAQPQTTMAPRPATPTSAPPVQISTVQAPGTPIIARQVTPTTIIKQVSQAQTTVQPSATLQRSPGVQPQLVLGGAAQTASLGTATAVQTGTPQRTVPGATTTSSAATETMENVKKCKNFLSTLIKLASSGKQSTETAANVKELVQNLLDGKIEAEDFTSRLYRELNSSPQPYLVPFLKRSLPALRQLTPDSAAFIQQSQQQPPPPTSQATTALTAVVLSSSVQRTAGKTAATVTSALQPPVLSLTQPTQVGVGKQGQPTPLVIQQPPKPGALIRPPQVTLTQTPMVALRQPHNRIMLTTPQQIQLNPLQPVPVVKPAVLPGTKALSAVSAQAAAAQKNKLKEPGGGSFRDDDDINDVA</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+                <attributeList>
+                    <attribute name="comment" nameAc="ID:0000">
+                        Spectra were also obtained for three different fragments of the TAF4N/C construct, which were almost identical to the spectrum of the whole construct, indicating similar structure and no interaction between the fragments; however, as the positions of the fragments were not given, these experiments were not included in the entry   
+                    </attribute>
+                </attributeList>
+            </experimentDescription>
+            <experimentDescription id="18">
+                <names>
+                    <shortLabel>hibino-2</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>HSQC</shortLabel>
+                        <fullName>heteronuclear single quantum coherence spectroscopy evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001813" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <experimentalSampleRef>17</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="19">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00378r008" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>3</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="153"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="215"/>
+                        </structureStateRegionRange>
+                        <sequence>PNLQNQQVLTGLPGVMPNIQYQVIPQFQTVDGQQLQFAATGAQVQQDGSGQIQIIPGANQQII</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="21">
+                <names>
+                    <shortLabel>hibino-3</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>HSQC</shortLabel>
+                        <fullName>heteronuclear single quantum coherence spectroscopy evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001813" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <experimentalSampleRef>22</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="23">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00378r008" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>3</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="153"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="215"/>
+                        </structureStateRegionRange>
+                        <sequence>PNLQNQQVLTGLPGVMPNIQYQVIPQFQTVDGQQLQFAATGAQVQQDGSGQIQIIPGANQQII</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="24">
+                <names>
+                    <shortLabel>hibino-4</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>HSQC</shortLabel>
+                        <fullName>heteronuclear single quantum coherence spectroscopy evidence</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0001813" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <experimentalSampleRef>25</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="26">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00378r010" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>7</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="349"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="495"/>
+                        </structureStateRegionRange>
+                        <sequence>TNSQGQTPQRVSGLQGSDALNIQQNQTSGGSLQAGQQKEGEQNQQTQQQQILIQPQLVQGGQALQALQAAPLSGQTFTTQAISQETLQNLQLQAVPNSGPIIIRTPTVGPNGQVSWQTLQLQNLQVQNPQAQTITLAPMQGVSLGQT</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="36">
+                <names>
+                    <shortLabel>hibino-5</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>CD</shortLabel>
+                        <fullName>circular dichroism</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <experimentalSampleRef>33</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="37">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00378r012" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>28</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="349"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="495"/>
+                        </structureStateRegionRange>
+                        <sequence>TNSQGQTPQRVSGLQGSDALNIQQNQTSGGSLQAGQQKEGEQNQQTQQQQILIQPQLVQGGQALQALQAAPLSGQTFTTQAISQETLQNLQLQAVPNSGPIIIRTPTVGPNGQVSWQTLQLQNLQVQNPQAQTITLAPMQGVSLGQT</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="38">
+                <names>
+                    <shortLabel>hibino-6</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>CD</shortLabel>
+                        <fullName>circular dichroism</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <experimentalSampleRef>34</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="39">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP01170r001" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>20</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="408"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="838"/>
+                        </structureStateRegionRange>
+                        <sequence>VTQSLSRTPTATTSGIRATLTPTVLAPRLPQPPQNPTNIQNFQLPPGMVLVRSENGQLLMIPQQALAQMQAQAHAQPQTTMAPRPATPTSAPPVQISTVQAPGTPIIARQVTPTTIIKQVSQAQTTVQPSATLQRSPGVQPQLVLGGAAQTASLGTATAVQTGTPQRTVPGATTTSSAATETMENVKKCKNFLSTLIKLASSGKQSTETAANVKELVQNLLDGKIEAEDFTSRLYRELNSSPQPYLVPFLKRSLPALRQLTPDSAAFIQQSQQQPPPPTSQATTALTAVVLSSSVQRTAGKTAATVTSALQPPVLSLTQPTQVGVGKQGQPTPLVIQQPPKPGALIRPPQVTLTQTPMVALRQPHNRIMLTTPQQIQLNPLQPVPVVKPAVLPGTKALSAVSAQAAAAQKNKLKEPGGGSFRDDDDINDVA</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="40">
+                <names>
+                    <shortLabel>hibino-7</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>CD</shortLabel>
+                        <fullName>circular dichroism</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:0000000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <experimentalSampleRef>35</experimentalSampleRef>
+                <experimentalConditionSetRef>14</experimentalConditionSetRef>
+                <inferredStructureStateList>
+                    <inferredStructureState id="41">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>20</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="408"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="838"/>
+                        </structureStateRegionRange>
+                        <sequence>VTQSLSRTPTATTSGIRATLTPTVLAPRLPQPPQNPTNIQNFQLPPGMVLVRSENGQLLMIPQQALAQMQAQAHAQPQTTMAPRPATPTSAPPVQISTVQAPGTPIIARQVTPTTIIKQVSQAQTTVQPSATLQRSPGVQPQLVLGGAAQTASLGTATAVQTGTPQRTVPGATTTSSAATETMENVKKCKNFLSTLIKLASSGKQSTETAANVKELVQNLLDGKIEAEDFTSRLYRELNSSPQPYLVPFLKRSLPALRQLTPDSAAFIQQSQQQPPPPTSQATTALTAVVLSSSVQRTAGKTAATVTSALQPPVLSLTQPTQVGVGKQGQPTPLVIQQPPKPGALIRPPQVTLTQTPMVALRQPHNRIMLTTPQQIQLNPLQPVPVVKPAVLPGTKALSAVSAQAAAAQKNKLKEPGGGSFRDDDDINDVA</sequence>
+                    </inferredStructureState>
+                    <inferredStructureState id="42">
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>28</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="349"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="495"/>
+                        </structureStateRegionRange>
+                        <sequence>TNSQGQTPQRVSGLQGSDALNIQQNQTSGGSLQAGQQKEGEQNQQTQQQQILIQPQLVQGGQALQALQAAPLSGQTFTTQAISQETLQNLQLQAVPNSGPIIIRTPTVGPNGQVSWQTLQLQNLQVQNPQAQTITLAPMQGVSLGQT</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="43">
+                <names>
+                    <shortLabel>hibino-8</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>SAXS</shortLabel>
+                        <fullName>small-angle X-ray scattering</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:000000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <inferredStructureStateList>
+                    <inferredStructureState id="46">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00378r007" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>27</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="153"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="215"/>
+                        </structureStateRegionRange>
+                        <sequence>PNLQNQQVLTGLPGVMPNIQYQVIPQFQTVDGQQLQFAATGAQVQQDGSGQIQIIPGANQQII</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="44">
+                <names>
+                    <shortLabel>hibino-9</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>SAXS</shortLabel>
+                        <fullName>small-angle X-ray scattering</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:000000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <inferredStructureStateList>
+                    <inferredStructureState id="47">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP00378r013" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>28</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="349"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="495"/>
+                        </structureStateRegionRange>
+                        <sequence>TNSQGQTPQRVSGLQGSDALNIQQNQTSGGSLQAGQQKEGEQNQQTQQQQILIQPQLVQGGQALQALQAAPLSGQTFTTQAISQETLQNLQLQAVPNSGPIIIRTPTVGPNGQVSWQTLQLQNLQVQNPQAQTITLAPMQGVSLGQT</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+            <experimentDescription id="45">
+                <names>
+                    <shortLabel>hibino-10</shortLabel>
+                </names>
+                <bibref>
+                    <xref>
+                        <primaryRef db="pubmed" dbAc="ID:0000" id="27515574" refType="primary-reference" refTypeAc="ID:0000"/>
+                    </xref>
+                    <attributeList>
+                        <attribute name="author-list" nameAc="ID:0000">Hibino et al.</attribute>
+                        <attribute name="contact-email" nameAc="ID:0000">hoshi@pharm.kyoto-u.ac.jp</attribute>
+                        <attribute name="journal" nameAc="ID:0000">protein science</attribute>
+                        <attribute name="publication year" nameAc="ID:0000">2016</attribute>
+                    </attributeList>
+                </bibref>
+                <hostOrganism ncbiTaxId="-1">
+                    <names>
+                        <shortLabel>in vitro</shortLabel>
+                        <fullName>in vitro</fullName>
+                    </names>
+                </hostOrganism>
+                <structureDeterminationMethod>
+                    <names>
+                        <shortLabel>SAXS</shortLabel>
+                        <fullName>small-angle X-ray scattering</fullName>
+                    </names>
+                    <xref>
+                        <primaryRef db="eco" dbAc="ID:0000" id="ECO:000000" refType="identity" refTypeAc="ID:0000"/>
+                    </xref>
+                </structureDeterminationMethod>
+                <inferredStructureStateList>
+                    <inferredStructureState id="48">
+                        <xref>
+                            <primaryRef db="disprot" dbAc="ID:0000" id="DP01170r002" refType="identity" refTypeAc="ID:0000"/>
+                        </xref>
+                        <structureStateType>
+                            <names>
+                                <shortLabel>disorder</shortLabel>
+                            </names>
+                            <xref>
+                                <primaryRef db="idpo" dbAc="ID:0000" id="IDPO:00076" refType="identity" refTypeAc="ID:0000"/>
+                            </xref>
+                        </structureStateType>
+                        <experimentalConstructRef>20</experimentalConstructRef>
+                        <structureStateRegionRange>
+                            <startStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </startStatus>
+                            <begin position="408"/>
+                            <endStatus>
+                                <names>
+                                    <shortLabel>certain</shortLabel>
+                                    <fullName>certain sequence position</fullName>
+                                </names>
+                                <xref>
+                                    <primaryRef db="psi-id" dbAc="ID:0000" id="ID:0000" refType="identity" refTypeAc="ID:0000"/>
+                                </xref>
+                            </endStatus>
+                            <end position="838"/>
+                        </structureStateRegionRange>
+                        <sequence>VTQSLSRTPTATTSGIRATLTPTVLAPRLPQPPQNPTNIQNFQLPPGMVLVRSENGQLLMIPQQALAQMQAQAHAQPQTTMAPRPATPTSAPPVQISTVQAPGTPIIARQVTPTTIIKQVSQAQTTVQPSATLQRSPGVQPQLVLGGAAQTASLGTATAVQTGTPQRTVPGATTTSSAATETMENVKKCKNFLSTLIKLASSGKQSTETAANVKELVQNLLDGKIEAEDFTSRLYRELNSSPQPYLVPFLKRSLPALRQLTPDSAAFIQQSQQQPPPPTSQATTALTAVVLSSSVQRTAGKTAATVTSALQPPVLSLTQPTQVGVGKQGQPTPLVIQQPPKPGALIRPPQVTLTQTPMVALRQPHNRIMLTTPQQIQLNPLQPVPVVKPAVLPGTKALSAVSAQAAAAQKNKLKEPGGGSFRDDDDINDVA</sequence>
+                    </inferredStructureState>
+                </inferredStructureStateList>
+            </experimentDescription>
+        </experimentList>
+    </entry>
+</entrySet>
