@@ -5,6 +5,11 @@
 ### We're looking for community input:
 Document for community input on XML schema [here](https://docs.google.com/document/d/1rfB3FiM6vSIGw3bQtQZdZeVhF-_fvTXMOu8UqdNfXdY/edit?usp=sharing)
 
+An XSD of HUPO-PSI-IDP XML format is available [here](./formats/xml/draft_v4/PSI-ID_schema-v4.xsd)
+
+An example of the HUPO-PSI-IDP v4 XML format holding a IDR annotation is available [here](./formats/xml/draft_v4/instance-v4-pmid_27515574.xml)
+
+
 Document for community input on MIADE guideline [here](https://docs.google.com/document/d/1SK7UvZrpg6KQkkXpcN90Pipqhyc_DdoUNHTWxnX0H-M/)
 
 ### The goals of the community are:
