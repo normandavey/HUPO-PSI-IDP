@@ -5,7 +5,7 @@
 ### We're looking for community input:
 Document for community input on XML schema [here](https://docs.google.com/document/d/1rfB3FiM6vSIGw3bQtQZdZeVhF-_fvTXMOu8UqdNfXdY/edit?usp=sharing)
 
-Document for community input on MIADE guideline [here](https://docs.google.com/document/d/16M_s-bxwWpe2CqN1fPoZJpy_ts1eg0IJB3rf7k7DWl8/edit?usp=sharing)
+Document for community input on MIADE guideline [here](https://docs.google.com/document/d/1SK7UvZrpg6KQkkXpcN90Pipqhyc_DdoUNHTWxnX0H-M/)
 
 ### The goals of the community are:
 The PSI-IDP working group is composed of academic, government, and industry researchers, software developers and database curators and managers. The main goals of the PSI-IDP working group are to:
