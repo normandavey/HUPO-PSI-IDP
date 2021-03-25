@@ -27,6 +27,14 @@ Current projects of the PSI-IDP working group are:
 ### The slides on current plans/progress:
 ELIXIR IDP community slides [here](https://docs.google.com/presentation/d/1VniSns2tD1f-rjF2grMKGqHPTWRYkECjLZ0KSJctQO0/edit?usp=sharing)
 
+
+#### Slides from HUPO-PSI annual meeting 2021
+Introduction [here](https://docs.google.com/presentation/d/1nn0BeRtmD9R-RVj2TAw-4LaSP4M7y8fDO0EUotzEX7I/edit?usp=sharing)
+
+Overview [here](https://docs.google.com/presentation/d/1yNTuRpAjOPSFSEsSOARKO9s5gsblI6IgDUTYIubKLrE/edit?usp=sharing)
+
+MIADE [here](https://docs.google.com/presentation/d/1nn0BeRtmD9R-RVj2TAw-4LaSP4M7y8fDO0EUotzEX7I/edit?usp=sharing)
+
 ### Milestones:
 **Milestone 1** Submission of a manuscript to a journal in the field to announce the PSI-IDP WG
 
