@@ -31,9 +31,17 @@ ELIXIR IDP community slides [here](https://docs.google.com/presentation/d/1VniSn
 #### Slides from HUPO-PSI annual meeting 2021
 Introduction [here](https://docs.google.com/presentation/d/1nn0BeRtmD9R-RVj2TAw-4LaSP4M7y8fDO0EUotzEX7I/edit?usp=sharing)
 
-Overview [here](https://docs.google.com/presentation/d/1yNTuRpAjOPSFSEsSOARKO9s5gsblI6IgDUTYIubKLrE/edit?usp=sharing)
+Overview (Norman Davey)[here](https://docs.google.com/presentation/d/1yNTuRpAjOPSFSEsSOARKO9s5gsblI6IgDUTYIubKLrE/edit?usp=sharing)
 
-MIADE [here](https://docs.google.com/presentation/d/1nn0BeRtmD9R-RVj2TAw-4LaSP4M7y8fDO0EUotzEX7I/edit?usp=sharing)
+MIADE (Norman Davey) [here](https://docs.google.com/presentation/d/1nn0BeRtmD9R-RVj2TAw-4LaSP4M7y8fDO0EUotzEX7I/edit?usp=sharing)
+
+DisProt Curation (Federica Quaglia) [here](https://drive.google.com/file/d/1wOL6PPhPhYP7twmtoX5R2p4EIEzriMvD/view?usp=sharing)
+
+Experiment CV (Bálint Mészáros) [here](https://docs.google.com/presentation/d/1pe56fkPbUwE7dNvU1aLu27AOgSkq0UEmxNkfrMKu3lk/edit?usp=sharing)
+
+Functional CV (Nico Palopoli) [here](https://docs.google.com/presentation/d/112gistj38bc6-44Mm8dWgB8_5bwl6RGXiYhBDNDZpP4/edit?usp=sharing)
+
+Use Cases (Bálint Mészáros) [here](https://docs.google.com/presentation/d/14Y6Lvkb1sIORkCmV2VMjRj4ndhP3mARdy5JGqzWlO0Y/edit?usp=sharing)
 
 ### Milestones:
 **Milestone 1** Submission of a manuscript to a journal in the field to announce the PSI-IDP WG
