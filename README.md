@@ -9,6 +9,8 @@ An XSD of HUPO-PSI-IDP XML format is available [here](./formats/xml/draft_v4/PSI
 
 An example of the HUPO-PSI-IDP v4 XML format holding a IDR annotation is available [here](./formats/xml/draft_v4/instance-v4-pmid_27515574.xml)
 
+Planning document for MIADE-compliant DisProt implementation [here](https://docs.google.com/document/d/1wFRX5mDoVN-7Y4lk3z5NfbwQowU895OEqg8gpTQzTcE/edit?ts=607ed954)
+
 
 Document for community input on MIADE guideline [here](https://docs.google.com/document/d/1SK7UvZrpg6KQkkXpcN90Pipqhyc_DdoUNHTWxnX0H-M/)
 
